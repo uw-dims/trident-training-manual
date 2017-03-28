@@ -6,8 +6,6 @@
 Trident Training Manual v |release|
 ===================================
 
-.. TODO: Fix this underline, which probably doesn't match the title line length.
-
 This document serves as a training guide for people using
 a Trident user portal system. This includes management of the
 Trident server by systems administrators, creating and
@@ -31,6 +29,9 @@ Chapter Index
    :numbered:
 
    introduction
+   memberlifecycle
+   grouplifecycle
+   systemadministration
    license
 
 .. sectionauthor:: Dave Dittrich dittrich@u.washington.edu

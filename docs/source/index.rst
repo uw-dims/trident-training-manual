@@ -4,23 +4,31 @@
    contain the root `toctree` directive.
 
 Trident Training Manual v |release|
-===========================================
+===================================
 
 .. TODO: Fix this underline, which probably doesn't match the title line length.
 
-This document (version |release|) describes the
-Trident Training Manual project (``trident-training-manual``
-for short) and its role in the DIMS project.
+This document serves as a training guide for people using
+a Trident user portal system. This includes management of the
+Trident server by systems administrators, creating and
+administering trust groups by trust group leader(s), and
+trust group member activities (such as management of the member's
+profile, mailing list memberships, using the Wiki, etc.)
 
-.. TODO: Fix this boilerplate introduction.
-.. todo::
+Document Overview
+~~~~~~~~~~~~~~~~~
 
-    Fix this boilterplate introduction.
+This document is divided into chapters as follows:
 
-..
+.. See http://app.devops.develop:8080/docs/develop/html/dims-sr/scope.html#document-overview
+.. for an example of what this should look like.
+
+Chapter Index
+~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
    introduction
    license

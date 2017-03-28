@@ -1,10 +1,7 @@
 .. _systemadministration:
 
-System Administration
-=====================
-
-Introduction
-------------
+System Administration Activities
+================================
 
 This chapter introduces ...
 

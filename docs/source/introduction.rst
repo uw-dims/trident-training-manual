@@ -3,9 +3,6 @@
 Introduction 
 ============
 
-Introduction
-------------
-
 This chapter introduces ...
 
 .. todo::

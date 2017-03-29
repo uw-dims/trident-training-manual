@@ -200,7 +200,7 @@ group.
 
 A user can edit attributes about email addresses associated
 with his account by clicking the ``Edit`` button in the row
-of the email address for which the edits should be made. 
+of the email address for which the edits should be made.
 
 .. figure:: images/trident/user-regular-shots/user-email-2.png
        :width: 85%
@@ -212,7 +212,7 @@ of the email address for which the edits should be made.
 
 Click the ``Make Recover Email`` button to make the
 selected email address the recovery email address for the
-user's account. 
+user's account.
 
 Once this is completed, the button disappears and a check
 box appears in the ``Recover`` row.
@@ -368,7 +368,7 @@ Audit Log
 ~~~~~~~~~
 
 The ``Audit Log`` page has no editable attributes. It shows
-all activities accomplished by the user. 
+all activities accomplished by the user.
 
 .. figure:: images/trident/user-regular-shots/user-audit-log.png
        :width: 85%

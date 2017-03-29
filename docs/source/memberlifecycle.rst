@@ -72,7 +72,7 @@ page. Click either of those to get to the ``Profile`` page
 that has editable attributes as can be seen in the next
 three images.
 
-.. figure:: images/trident/user-regular-shots/user-nominate-1.png
+.. figure:: images/trident/user-regular-shots/user-profile-1.png
        :width: 85%
        :align: center
 
@@ -80,7 +80,7 @@ three images.
 
 ..
 
-.. figure:: images/trident/user-regular-shots/user-nominate-2.png
+.. figure:: images/trident/user-regular-shots/user-profile-2.png
        :width: 85%
        :align: center
 
@@ -88,7 +88,7 @@ three images.
 
 ..
 
-.. figure:: images/trident/user-regular-shots/user-nominate-3.png
+.. figure:: images/trident/user-regular-shots/user-profile-3.png
        :width: 85%
        :align: center
 

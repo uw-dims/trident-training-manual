@@ -436,15 +436,198 @@ user may view or manage.
 Viewable Group Attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo::
+This subsection will cover attributes viewable from the
+``Member``, ``Airports``, ``Contacts``, and ``Vouches``
+tabs.
 
-    This will cover the ``Member``, ``Airports``, ``Contacts``
-    and ``Vouches`` tab.
+First of all, to view a list of groups of which a user is a
+member, click the ``Group`` tab in the top row of any page.
+This presents a page listing all groups of which a user is
+a member.
+
+.. figure:: images/trident/group-regular-shots/group-main-1.png
+       :width: 85%
+       :align: center
+
+       Trust group list
 
 ..
 
-Manageable Group Attributes
+To see more information about a certain group, click one of
+the links in the list.
+
+.. figure:: images/trident/group-regular-shots/group-main-2.png
+       :width: 85%
+       :align: center
+
+       Trust group attributes list
+
+..
+
+This presents a page with a list of links to all attributes
+viewable or manageable by the member. There are some activities
+the member may take part in, such as nominating and vouching
+for new group members, but, for the most part, a regular
+member may only view these attributes. They are not allowed
+to change attributes about the group or its members. One
+notable exception is that members are allowed to start new
+mailing lists. This activity, along with nominating and
+vouching, will be covered in the next section. For now,
+let's go over the attributes viewable by members.
+
+The first link on the group home page, or the first tab in
+the second row of all group-related pages is titled
+``Members``. Click either the link or the tab to go to a
+page listing all members in the current trust group.
+
+.. figure:: images/trident/group-regular-shots/group-members.png
+       :width: 85%
+       :align: center
+
+       Trust group members list
+
+..
+
+Click on any member's username link, and you will be taken
+to their profile.
+
+.. figure:: images/trident/group-regular-shots/group-member-profile-1.png
+       :width: 85%
+       :align: center
+
+       Member profile, top
+
+..
+
+.. figure:: images/trident/group-regular-shots/group-member-profile-2.png
+       :width: 85%
+       :align: center
+
+       Member profile, middle
+
+..
+
+.. figure:: images/trident/group-regular-shots/group-member-profile-3.png
+       :width: 85%
+       :align: center
+
+       Member profile, vouches for
+
+..
+
+You may view any member's profile, provided you are in
+their trust group. At the bottom of the profile, there are
+lists of vouching activities the current member has been
+part of: vouches he has made or vouches other members have
+made for him. In the above example, another user vouched for
+the user ``dittrich``, but he has not yet vouched for anyone.
+
+In this next example, the user ``trident`` has vouched
+for another member, but has not yet been vouched for by
+any other member. We will discuss vouching in the section
+on :ref:`manageableactivities`.
+
+.. todo::
+
+    Where should vouching go? User section or group section?
+
+..
+
+.. figure:: images/trident/group-regular-shots/group-member-profile-4.png
+       :width: 85%
+       :align: center
+
+       Member profile, no vouches for
+
+..
+
+The ``Airports`` page shows a list of airports members of
+the current trust group indicate as the airport nearest to
+them.
+
+.. figure:: images/trident/group-regular-shots/group-airports.png
+       :width: 85%
+       :align: center
+
+       Airports list
+
+..
+
+Click on any airport abbreviation in the list, and you'll
+be taken to a new page with a list of members who have
+indicated the airport is the airport nearest to them.
+
+.. figure:: images/trident/group-regular-shots/group-airports-phl.png
+       :width: 85%
+       :align: center
+
+       Members with PHL airport
+
+..
+
+.. figure:: images/trident/group-regular-shots/group-airports-sea.png
+       :width: 85%
+       :align: center
+
+       Members with SEA airport
+
+..
+
+The ``Contacts`` page shows a list of members of the current
+trust group with their contact information, including
+affiliation, email, telephone, and SMS.
+
+.. figure:: images/trident/group-regular-shots/group-contacts.png
+       :width: 85%
+       :align: center
+
+       Member contact list
+
+..
+
+The ``Vouches`` page shows a list of all vouches made for
+members of the current trust group. This list indicates who
+was vouched for and by whom and on what date the vouch was
+made.
+
+If no vouches have been made yet, you'll get a mostly
+blank page:
+
+.. figure:: images/trident/group-regular-shots/group-vouches.png
+       :width: 85%
+       :align: center
+
+       No vouches
+
+..
+
+Once at least one vouch has been made, a list will appear:
+
+.. figure:: images/trident/group-regular-shots/group-vouches-made.png
+       :width: 85%
+       :align: center
+
+       Vouches made
+
+..
+
+
+.. _manageableactivities:
+
+Manageable Group Activities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The ``PGP Keys`` tab or link doesn't actually take you to a
+new page, it just downloads all PGP keys for the current
+trust group.
+
+.. figure:: images/trident/group-regular-shots/group-pgp-download.png
+       :width: 85%
+       :align: center
+
+       Download PGP keys
+
+..
 
 .. todo::
 

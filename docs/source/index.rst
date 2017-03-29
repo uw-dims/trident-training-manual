@@ -18,8 +18,17 @@ Document Overview
 
 This document is divided into chapters as follows:
 
-.. See http://app.devops.develop:8080/docs/develop/html/dims-sr/scope.html#document-overview
-.. for an example of what this should look like.
++ Section :ref:`introduction` introduces the training
+  manual.
+
++ Section :ref:`memberlifecycle` guides members through
+  activities and attributes they can manage.
+
++ Section :ref:`grouplifecycle` guides trust group admins
+  though activities and attributes they can manage.
+
++ Section :ref:`systemadministration` guides system admins
+  through activities and attributes they can manage.
 
 Chapter Index
 ~~~~~~~~~~~~~

@@ -52,6 +52,9 @@ look similarly to this page:
 
 ..
 
+
+.. _usermanagement:
+
 User Attribute Management
 -------------------------
 
@@ -105,7 +108,6 @@ the ``Update Profile`` button must be clicked to save the
 changes. The page will then refresh with the newly saved
 information, as well as indicate how many fields were
 updated and how many fields were not updated.
-
 
 Other Personal Details
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -169,7 +171,6 @@ clicking the ``Change username`` button.
 
 ..
 
-
 Password Change
 ~~~~~~~~~~~~~~~
 
@@ -214,7 +215,6 @@ in the list of two-factor authentication tokens.
        Two-factor authentication
 
 ..
-
 
 Email Management
 ~~~~~~~~~~~~~~~~
@@ -331,11 +331,15 @@ shown at a time, so click the ``Forward`` button to see
 older activities.
 
 
+.. _usergroupmanagement:
+
 Group Management
 ----------------
 
-This section will cover group attributes a user may manage
-or view.
+This section will cover group activities and attributes a
+user may view or manage.
+
+.. _viewableattributes:
 
 Viewable Group Attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -577,6 +577,13 @@ Once at least one vouch has been made, a list will appear:
 Manageable Group Activities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This subsection will cover attributes and activities
+manageable from the ``PGP Keys``, ``Mailing List``,
+``Wiki``, ``Files``, ``Nominate``, and ``Vouching Control
+Panel`` tabs or links. Remember, the tabs will be found in
+the second row at the top of any group-related page and the
+links can be found listed on the group's main page.
+
 The ``PGP Keys`` tab or link doesn't actually take you to a
 new page, it just downloads all PGP keys for the current
 trust group.
@@ -589,11 +596,493 @@ trust group.
 
 ..
 
-.. todo::
+The ``Mailing List`` tab or links opens a new page listing
+the current trust group's mailing lists and information
+about them.
 
-    This will cover the ``PGP Keys``, ``Mailing List``
-    ``Wiki``, ``Files``, ``Nominate``, and ``Vouching
-    Control Panel`` tabs.
+.. figure:: images/trident/group-regular-shots/group-mailing-list-list.png
+       :width: 85%
+       :align: center
+
+       Mailing lists list
 
 ..
 
+Clicking the link found in any row of the ``Shortname``
+column will take you to a page listing members on that
+mailing list. Clicking the link in any row of the ``PGP``
+column will download the PGP keys for that mailing list.
+
+.. figure:: images/trident/group-regular-shots/group-mailing-list-pgp-download.png
+       :width: 85%
+       :align: center
+
+       Download list PGP keys
+
+..
+
+When new mailing lists are added, trust group members may
+have to manually add, or subscribe, themselves to the list.
+Do so by clicking the ``Subscribe`` button found in the
+``Action`` column of the mailing list to which you would
+like to subscribe.
+
+.. figure:: images/trident/group-regular-shots/group-mailing-list-new-subscribe.png
+       :width: 85%
+       :align: center
+
+       Subscribe to new mailing list
+
+..
+
+Likewise, to unsubscribe to a mailing list from which you
+would not like to receive email, click the ``Unsubscribe``
+button in the ``Action`` column of the mailing list to which
+you would like to unsubscribe.
+
+.. figure:: images/trident/group-regular-shots/group-mailing-list-unsubscribe.png
+       :width: 85%
+       :align: center
+
+       Unsubscribe from mailing list
+
+..
+
+When you are finished viewing or managing the mailing lists,
+to return to either the user or group perspective, click the
+``User`` or ``Group`` tabs in the top row of the page. If
+returning to a group, chose the group from the list of
+available trust groups.
+
+The ``Wiki`` tab or link opens a new page showing the wiki's
+home page. The second row at the top of the page changes to
+be wiki-related tabs, rather than group-related tabs.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-home.png
+       :width: 85%
+       :align: center
+
+       Wiki home page
+
+..
+
+If no content has been added to the wiki before, as the
+above image shows, click the ``edit me`` link. This will
+take you to an editor (which is also the ``Edit`` tab).
+Edit as you please.
+
+Any page you edit will have an editor similar to what is
+shown in the image below. Once you have your content to your
+satisfaction, make sure to add a summary in the ``Edit
+Summary`` field, then click the ``Save Revision`` button.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-editor.png
+       :width: 85%
+       :align: center
+
+       Wiki editor
+
+..
+
+Once the edit has been saved, you'll be taken back to the
+wiki page you were editing, and you'll see the changes made.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-edit-made.png
+       :width: 85%
+       :align: center
+
+       Wiki edit made
+
+..
+
+Use the ``Source`` tab to see the markdown source and its
+HTML preview for the wiki home page. This page will also
+give you a link to obtaining the raw markdown file.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-source.png
+       :width: 85%
+       :align: center
+
+       Wiki source
+
+..
+
+To see a history of edits made to the wiki, use the
+``History`` tab.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-edit-history.png
+       :width: 85%
+       :align: center
+
+       Wiki edit history
+
+..
+
+The next tab, ``Options``, pages can be moved, deleted,
+and/or copied.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-options-1.png
+       :width: 85%
+       :align: center
+
+       Wiki options, top
+
+..
+
+.. figure:: images/trident/group-regular-shots/group-wiki-options-2.png
+       :width: 85%
+       :align: center
+
+       Wiki options, bottom
+
+..
+
+The ``Child Pages`` tab lists any child pages of the wiki.
+Clicking on the ``Path`` links will list any child pages of
+that root page. Click the ``View`` link in the ``Action``
+column to view any of the child pages. If no child pages
+have been added, as is the case below, just the root paths
+will be shown.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-child-pages.png
+       :width: 85%
+       :align: center
+
+       Empty child pages
+
+..
+
+To add more child pages, go to the ``New Page`` tab. Name
+your page, then click the ``Create New Page`` button.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-new-page.png
+       :width: 85%
+       :align: center
+
+       Create a new page
+
+..
+
+This will take you to an editor page where you can write up
+your new wiki page.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-new-page-edit-1.png
+       :width: 85%
+       :align: center
+
+       Edit a new page
+
+..
+
+Once you're done editing, give a summary of the edits in the
+``Edit Summary`` field, and click the ``Save Revision``
+button. This will take you to a new page, showing the new
+page.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-new-page-edit-2.png
+       :width: 85%
+       :align: center
+
+       New wiki page
+
+..
+
+This automatically updates the list of child pages found on
+the ``Child Pages`` page.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-child-pages-updated.png
+       :width: 85%
+       :align: center
+
+       Child pages list updated
+
+..
+
+You can also search through all the wiki pages available to
+the current trust group.
+
+.. figure:: images/trident/group-regular-shots/group-wiki-search.png
+       :width: 85%
+       :align: center
+
+       Wiki search
+
+..
+
+When you are finished editing the wiki, to return to either
+the user or group perspective, click the ``User`` or
+``Group`` tabs in the top row of the page. If returning to a
+group, chose the group from the list of available trust
+groups.
+
+The ``Files`` link or tab organizes files for the current
+trust group. Members can add both directories and files,
+view a list of available artifacts, and view the available
+artifacts. If no files or directories have been added, the
+``Files`` home page will only show two buttons, an ``Add a
+new file`` button and an ``Add a new directory`` button.
+Otherwise, it will show a list of available directories, as
+well as the ``Add`` buttons.
+
+.. figure:: images/trident/group-regular-shots/group-files-home-page.png
+       :width: 85%
+       :align: center
+
+       Files home page
+
+..
+
+To add a directory, use the ``Add Directory`` tab in the
+second row at the top of the page, or the ``Add a new
+directory`` button from the ``Files`` home page.
+
+To add a new directory, you must give the filepath of the
+new directory and a brief description of the directory. Then
+click the ``Create new directory`` button.
+
+.. figure:: images/trident/group-regular-shots/group-files-directory-add.png
+       :width: 85%
+       :align: center
+
+       Add directory
+
+..
+
+The home page list of directories will be updated
+accordingly.
+
+.. figure:: images/trident/group-regular-shots/group-files-home-page-dir-add.png
+       :width: 85%
+       :align: center
+
+       Available directories updated
+
+..
+
+To add a file, click either the ``Add File`` tab or the
+``Add a new file`` button from the ``Files`` home page. This
+takes you to a new page where you can give the file a name,
+a description, and chose the file from your local
+filesystem. Then, click the ``Create new file`` button.
+
+.. figure:: images/trident/group-regular-shots/group-files-file-add-1.png
+       :width: 85%
+       :align: center
+
+       Add a new file
+
+..
+
+Once submitted, a new page will show that the file has been
+uploaded and to which path. It also gives some statistics
+about the current directory and files.
+
+.. figure:: images/trident/group-regular-shots/group-files-file-add-2.png
+       :width: 85%
+       :align: center
+
+       Confirmation of a new file
+
+..
+
+The ``Files`` tab's home page is also updated, but it is a
+little subtle when a file is added.
+
+.. figure:: images/trident/group-regular-shots/group-files-home-page-file-add.png
+       :width: 85%
+       :align: center
+
+       Home page file add confirmation
+
+..
+
+The only difference is that the 'Total' count has gone up by
+one. If you added a new file to the root path, the file
+itself would show up, and the count would increase. Since
+the added file is stored in the ``logs`` directory, it is
+hidden on this page. You can click the ``Path`` link for any
+subdirectories to get a list of files or more subdirectories
+in that directory.
+
+The ``List`` tab which returns you to the ``Files`` home page,
+listing available directories and files.
+
+Again, to return to group or user settings, click the ``Group``
+or ``User`` tabs in the top row of the page.
+
+.. _vouching:
+
+Vouching for Trust Group Members
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For a user to become a member of a trust group, they must be
+"vouched for" by other members of the trust group.
+Essentially, this means that other members of the trust
+group know the potential member and trust her with
+admittance to the trust group.
+
+Each trust group may have unique requirements about the
+number of vouches a user must obtain before she will be
+permitted to become a member of the trust group. For our
+training guide, only one vouch is required for membership.
+Most groups will have more significant requirements. 
+
+Vouching is not required only for member admittance, but it
+can also be used to indicate member relationships beyond the
+minimum requirement needed for membership.
+
+There are three ways for a trust group member to vouch for
+another member: vouch for a member through the member's
+profile, nominate a user through the group's profile, use
+the ``Vouching Control Panel``.
+
+The first way to vouch for a member is through the member's
+profile. This means the user must already be a member, and
+has already been vouched for enough times to meet the
+current trust group's requirements for membership. 
+
+Go to the home page of the group of the member for whom you
+would like to vouch. To see what vouches have already been
+made, go to the ``Vouches`` tab. Then, to start vouching for
+a member, click the ``Members`` tab or link, then choose the
+user. You should now be on his profile page. Scroll all the
+way to the bottom of the profile, and you will see a form
+section where you can write a comment about why you are
+vouching for the member and make attestations about your
+relationship to the member.
+
+.. figure:: images/trident/group-regular-shots/group-vouch-1.png
+       :width: 85%
+       :align: center
+
+       Member profile, blank vouch section
+
+..
+
+Fill in the form, then click the ``Vouch`` button.
+
+.. figure:: images/trident/group-regular-shots/group-vouch-2.png
+       :width: 85%
+       :align: center
+
+       Member profile, filled-in vouch section
+
+..
+
+Once you have vouched for a member, this vouch will be on
+that members profile forever. You can update the vouch, or
+delete it, if necessary. Additionally, vouches made by the
+member are listed right above the vouches made for the
+member.
+
+.. figure:: images/trident/group-regular-shots/group-vouch-3.png
+       :width: 85%
+       :align: center
+
+       Member profile, vouch made
+
+..
+
+To vouch for a brand new user, you must nominate the user.
+Go to the home page of the group to which the user should be
+nominated. The ``Nominate`` tab brings up a page which
+allows you to start the process of nominating a user to the
+trust group.  First, the user must exist in the system. Then,
+you can search for the user by their email address associated
+with their account.
+
+Once you have given the email in the ``Search email`` field,
+click the ``Search`` button.
+
+.. figure:: images/trident/group-regular-shots/group-nominate-1.png
+       :width: 85%
+       :align: center
+
+       Search for a user to nominate
+
+..
+
+If there is a user tied to the given email address, the user
+will show up in a list on the next page. Click the
+``Select`` button to continue.
+
+.. figure:: images/trident/group-regular-shots/group-nominate-2.png
+       :width: 85%
+       :align: center
+
+       User search results
+
+..
+
+Part of the nomination process is a vouch for the user you
+are nominating. Your trust group will have its own
+requirements, but, in general, any given trust group will
+require a user to obtain a certain number of vouches in
+order for them to be allowed to join the trust group. 
+
+In the page that follows your selection of a user to
+nominate, you are given the opportunity to vouch for them.
+You may write a comment about why you are vouching for the
+user, then you toggle the three attestations to confirm your
+relationship to the user. Then, click the ``Nominate``
+button.
+
+.. figure:: images/trident/group-regular-shots/group-nominate-3.png
+       :width: 85%
+       :align: center
+
+       Vouch for a user
+
+..
+
+If the submission goes correctly, this is indicated at the
+bottom of the page.
+
+.. figure:: images/trident/group-regular-shots/group-nominate-4.png
+       :width: 85%
+       :align: center
+
+       Successful nomination
+
+..
+
+If you return to the ``Members`` page for the current trust
+group, you will see that the list of members has updated.
+The user ``bob`` had previously not been on the list of
+members, but now that member is there. The user's
+``Vouches`` column is also automatically updated.
+
+The final way to vouch for members is to use the ``Vouching
+Control Panel`` found in a tab or link of the same name
+within the group perspective. This panel allows you to
+submit vouches in batches.
+
+.. figure:: images/trident/group-regular-shots/group-vouching-ctrl-panel.png
+       :width: 85%
+       :align: center
+
+       Vouching control panel
+
+..
+
+There are two selections you can make to form groups of
+members which you can then act against all at one time.
+Choose a criteria ``Unmarked``, ``Dunno``, or ``Vouched``.
+``Unmarked`` means you haven't vouched for them at all.
+``Dunno`` means you don't know them. ``Vouched`` means you
+have vouched for them. Then choose a limit for how many
+members you want to deal with at one time. Once you've
+selected you criteria and limits, click the ``Change
+Criteria`` button.
+
+Once you've made your selection, you can then walk through
+the batch, and apply an action against each member, by
+toggling the button in the ``Action`` column. Once you've
+applied all your actions, click the button at the bottom of
+the list. Its name changes, depending on which action you are
+applying.
+
+Those are all the tasks a member of a trust group can
+perform. To see tasks for admins of trust groups or for
+system administrators, please see the other chapters in this
+document.

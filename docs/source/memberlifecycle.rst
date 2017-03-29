@@ -44,11 +44,11 @@ Enter your credentials, and click the ``Sign In`` button.
 This will bring you to your user's home page, which will
 look similarly to this page:
 
-.. figure:: images/trident/trident-logged-in.png
+.. figure:: images/trident/user-logged-in.png
        :width: 85%
        :align: center
 
-       Trident user logged in
+       User logged in
 
 ..
 
@@ -254,6 +254,9 @@ Click the ``Make Recover Email`` button to make the
 selected email address the recovery email address for the
 user's account. 
 
+Once this is completed, the button disappears and a check
+box appears in the ``Recover`` row.
+
 .. figure:: images/trident/user-regular-shots/user-email-3.png
        :width: 85%
        :align: center
@@ -262,8 +265,11 @@ user's account.
 
 ..
 
-Once this is completed, the button disappears and a check
-box appears in the ``Recover`` row. 
+As can be seen, this is also the page where PGP keys are
+to be added, and we will cover this in the next section.
+
+Going back to the ``Email`` page shows another check box
+in the list of email address.
 
 .. figure:: images/trident/user-regular-shots/user-email-4.png
        :width: 85%
@@ -273,8 +279,94 @@ box appears in the ``Recover`` row.
 
 ..
 
-As can be seen, this is also the page where PGP keys are
-to be added, and we will cover this in the next section.
+To add an email address, type it in the requested field:
+
+.. figure:: images/trident/user-regular-shots/user-email-5.png
+       :width: 85%
+       :align: center
+
+       Add new email
+
+..
+
+After clicking the ``Add Email Address`` button, the page
+will refresh with the new address in the list at the top
+of the page. Click the ``Edit`` button to make additional
+changes.
+
+.. figure:: images/trident/user-regular-shots/user-email-6.png
+       :width: 85%
+       :align: center
+
+       New email attributes
+
+..
+
+A member must verify any new email addresses he manually adds.
+Click the ``Verify`` button. This will send an email to the
+provided address. The email will contain a verification code.
+Copy and paste the code in the ``Verification Code`` field,
+and click the ``Confirm`` button.
+
+.. figure:: images/trident/user-regular-shots/user-email-7.png
+       :width: 85%
+       :align: center
+
+       Verify email
+
+..
+
+Until the email address is verified, the list of email addresses
+will retain an ``In Process`` status in the ``Verify`` column.
+
+.. figure:: images/trident/user-regular-shots/user-email-8.png
+       :width: 85%
+       :align: center
+
+       New email status
+
+..
+
+Remember, the "Edit" screen allows you to make any of your
+available addresses the recovery email for your account.
+Only one address may be the recovery email.
+
+Since the ``dittrich`` user has not confirmed his new email
+address yet, let's take a look at what happens when a user
+does have multiple verfied email addresses.
+
+A user can choose which email address will be associated
+with each trust group of which she is a member. In the case
+of the user ``mboggess``, she has two email addresses. Only
+one address can be associated with a trust group at a time.
+Since she has two email addresses, she must chose one to
+be associated with the ``main`` trust group of which she is
+a member.
+
+.. figure:: images/trident/user-regular-shots/user-email-9.png
+       :width: 85%
+       :align: center
+
+       Multiple emails
+
+..
+
+By choosing the second email address (the @uw email address)
+to be the email address associated with the ``main`` trust
+group, the list at the top of the page changes. It now
+shows the @uw email address is associated with the ``main``
+trust group, as indicated by the ``Groups`` column in the
+list.
+
+.. figure:: images/trident/user-regular-shots/user-email-10.png
+       :width: 85%
+       :align: center
+
+       Email-group association swap
+
+..
+
+
 
 PGP Keys
 ~~~~~~~~

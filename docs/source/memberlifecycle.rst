@@ -13,12 +13,12 @@ memberships, using the wiki, etc.
 .. _usermanagement:
 
 User Attribute Management
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This section will cover management of a user's attributes.
 
 Profile Management
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Most of the details a regular member of a trust group can
 modify about himself are found in the ``Profile`` page.
@@ -67,7 +67,7 @@ information, as well as indicate how many fields were
 updated and how many fields were not updated.
 
 Other Personal Details
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 Other personal details can be modified through the ``Details``,
 ``Languages``, and ``Username`` tabs found in the second row
@@ -129,7 +129,7 @@ clicking the ``Change username`` button.
 ..
 
 Password Change
-~~~~~~~~~~~~~~~
+---------------
 
 The ``Password`` page allows a member to change her password,
 provided she knows her current password (which she should,
@@ -154,7 +154,7 @@ and must login again, with the new password.
 ..
 
 Two Factor Authentication
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 The ``2FA Tokens`` page allows a user to add two-factor
 authentication tokens. Types of two-factor authentications
@@ -174,7 +174,7 @@ in the list of two-factor authentication tokens.
 ..
 
 Email Management
-~~~~~~~~~~~~~~~~
+----------------
 
 The ``Email`` page covers a variety of things. It lists
 email addresses tied to a user's account, showing if each
@@ -326,7 +326,7 @@ list.
 
 
 PGP Keys
-~~~~~~~~
+--------
 
 PGP keys can be downloaded and uploaded. They must stay
 current for a user to be able to read any encrypted email
@@ -362,7 +362,7 @@ button.
 
 
 Audit Log
-~~~~~~~~~
+---------
 
 The ``Audit Log`` page has no editable attributes. It shows
 all activities accomplished by the user.
@@ -383,7 +383,7 @@ older activities.
 .. _usergroupmanagement:
 
 Group Management
-----------------
+~~~~~~~~~~~~~~~~
 
 This section will cover group activities and attributes a
 user may view or manage.
@@ -391,7 +391,7 @@ user may view or manage.
 .. _viewableattributes:
 
 Viewable Group Attributes
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 This subsection will cover attributes viewable from the
 ``Member``, ``Airports``, ``Contacts``, and ``Vouches``
@@ -572,7 +572,7 @@ Once at least one vouch has been made, a list will appear:
 .. _manageableactivities:
 
 Manageable Group Activities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 This subsection will cover attributes and activities
 manageable from the ``PGP Keys``, ``Mailing List``,

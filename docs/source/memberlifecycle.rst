@@ -29,6 +29,8 @@ page. Click either of those to get to the ``Profile`` page
 that has editable attributes as can be seen in the next
 three images.
 
+.. _userProfileTop:
+
 .. figure:: images/trident/user-regular-shots/user-profile-1.png
        :width: 85%
        :align: center
@@ -37,6 +39,8 @@ three images.
 
 ..
 
+.. _userProfileMiddle:
+
 .. figure:: images/trident/user-regular-shots/user-profile-2.png
        :width: 85%
        :align: center
@@ -44,6 +48,8 @@ three images.
        User profile, middle
 
 ..
+
+.. _userProfileBottom:
 
 .. figure:: images/trident/user-regular-shots/user-profile-3.png
        :width: 85%
@@ -79,6 +85,8 @@ The ``Details`` page is a place to add any other details
 that don't conform to the profile. Currently, the only
 detail type is a callsign.
 
+.. _userDetails:
+
 .. figure:: images/trident/user-regular-shots/user-details.png
        :width: 85%
        :align: center
@@ -90,6 +98,8 @@ detail type is a callsign.
 The ``Languages`` page is the place to add languages a
 member knows and her skill level at that language.
 
+.. _userLanguageChoose:
+
 .. figure:: images/trident/user-regular-shots/user-languages-1.png
        :width: 85%
        :align: center
@@ -98,6 +108,8 @@ member knows and her skill level at that language.
 
 ..
 
+.. _userLanguageSkill:
+
 .. figure:: images/trident/user-regular-shots/user-languages-2.png
        :width: 85%
        :align: center
@@ -105,6 +117,8 @@ member knows and her skill level at that language.
        User languages, choose skill level
 
 ..
+
+.. _userLanguageUpdated:
 
 .. figure:: images/trident/user-regular-shots/user-languages-3.png
        :width: 85%
@@ -119,6 +133,8 @@ This can affect external systems, so this change should be
 used with care and caution. Enter the new username in the
 field and use the toggle to confirm the change before
 clicking the ``Change username`` button.
+
+.. _userUsername:
 
 .. figure:: images/trident/user-regular-shots/user-username.png
        :width: 85%
@@ -137,6 +153,8 @@ since she is logged in already). When the member clicks the
 ``Change Password`` button, she is immediately logged out
 and must login again, with the new password.
 
+.. _userPasswordChange:
+
 .. figure:: images/trident/user-regular-shots/user-password-change-1.png
        :width: 85%
        :align: center
@@ -144,6 +162,8 @@ and must login again, with the new password.
        Define new password
 
 ..
+
+.. _userPasswordLogin:
 
 .. figure:: images/trident/user-regular-shots/user-password-change-2.png
        :width: 85%
@@ -164,6 +184,8 @@ password and a description for the token, as well as choose
 which OTP type. Once those fields have been filled out,
 click the ``Create`` button, and the new token will show
 in the list of two-factor authentication tokens.
+
+.. _user2FA:
 
 .. figure:: images/trident/user-regular-shots/user-2FA.png
        :width: 85%
@@ -187,6 +209,8 @@ It also provides a way to add a new email address, and
 lists each group and associated email addresses for that
 group.
 
+.. _userMainEmail:
+
 .. figure:: images/trident/user-regular-shots/user-email-1.png
        :width: 85%
        :align: center
@@ -198,6 +222,8 @@ group.
 A user can edit attributes about email addresses associated
 with his account by clicking the ``Edit`` button in the row
 of the email address for which the edits should be made.
+
+.. _userEmailEdit:
 
 .. figure:: images/trident/user-regular-shots/user-email-2.png
        :width: 85%
@@ -214,6 +240,8 @@ user's account.
 Once this is completed, the button disappears and a check
 box appears in the ``Recover`` row.
 
+.. _userEmailRecover:
+
 .. figure:: images/trident/user-regular-shots/user-email-3.png
        :width: 85%
        :align: center
@@ -228,6 +256,8 @@ to be added, and we will cover this in the next section.
 Going back to the ``Email`` page shows another check box
 in the list of email address.
 
+.. _userConfirmRecover:
+
 .. figure:: images/trident/user-regular-shots/user-email-4.png
        :width: 85%
        :align: center
@@ -237,6 +267,8 @@ in the list of email address.
 ..
 
 To add an email address, type it in the requested field:
+
+.. _userAddNewEmail:
 
 .. figure:: images/trident/user-regular-shots/user-email-5.png
        :width: 85%
@@ -250,6 +282,8 @@ After clicking the ``Add Email Address`` button, the page
 will refresh with the new address in the list at the top
 of the page. Click the ``Edit`` button to make additional
 changes.
+
+.. _userEmailAttributes:
 
 .. figure:: images/trident/user-regular-shots/user-email-6.png
        :width: 85%
@@ -265,6 +299,8 @@ provided address. The email will contain a verification code.
 Copy and paste the code in the ``Verification Code`` field,
 and click the ``Confirm`` button.
 
+.. _userVerifyEmail:
+
 .. figure:: images/trident/user-regular-shots/user-email-7.png
        :width: 85%
        :align: center
@@ -275,6 +311,8 @@ and click the ``Confirm`` button.
 
 Until the email address is verified, the list of email addresses
 will retain an ``In Process`` status in the ``Verify`` column.
+
+.. _userEmailStatus:
 
 .. figure:: images/trident/user-regular-shots/user-email-8.png
        :width: 85%
@@ -300,6 +338,8 @@ Since she has two email addresses, she must chose one to
 be associated with the ``main`` trust group of which she is
 a member.
 
+.. _userMultipleEmails:
+
 .. figure:: images/trident/user-regular-shots/user-email-9.png
        :width: 85%
        :align: center
@@ -314,6 +354,8 @@ group, the list at the top of the page changes. It now
 shows the @uw email address is associated with the ``main``
 trust group, as indicated by the ``Groups`` column in the
 list.
+
+.. _userEmailGroupAssoc:
 
 .. figure:: images/trident/user-regular-shots/user-email-10.png
        :width: 85%
@@ -338,6 +380,8 @@ tab in the second row at the top of any ``User`` page, or
 click the ``Download All PGP Keys`` link in the list of
 links on the user's home page.
 
+.. _userDownloadPGPKeys:
+
 .. figure:: images/trident/user-regular-shots/user-pgp-download.png
        :width: 85%
        :align: center
@@ -351,6 +395,8 @@ button in the row of the email address of which you'd like
 to associate a PGP key. In the ``PGP Key`` row, you will be
 able to choose the PGP key file. Then click the ``Upload Key``
 button.
+
+.. _userUploadPGPKey:
 
 .. figure:: images/trident/user-regular-shots/user-pgp-add.png
        :width: 85%
@@ -366,6 +412,8 @@ Audit Log
 
 The ``Audit Log`` page has no editable attributes. It shows
 all activities accomplished by the user.
+
+.. _userAuditLog:
 
 .. figure:: images/trident/user-regular-shots/user-audit-log.png
        :width: 85%
@@ -402,6 +450,8 @@ member, click the ``Group`` tab in the top row of any page.
 This presents a page listing all groups of which a user is
 a member.
 
+.. _userTGList:
+
 .. figure:: images/trident/group-regular-shots/group-main-1.png
        :width: 85%
        :align: center
@@ -412,6 +462,8 @@ a member.
 
 To see more information about a certain group, click one of
 the links in the list.
+
+.. _userTGAttrList:
 
 .. figure:: images/trident/group-regular-shots/group-main-2.png
        :width: 85%
@@ -437,6 +489,8 @@ the second row of all group-related pages is titled
 ``Members``. Click either the link or the tab to go to a
 page listing all members in the current trust group.
 
+.. _userTGMembersList:
+
 .. figure:: images/trident/group-regular-shots/group-members.png
        :width: 85%
        :align: center
@@ -448,6 +502,8 @@ page listing all members in the current trust group.
 Click on any member's username link, and you will be taken
 to their profile.
 
+.. _userTGMemberProfileTop:
+
 .. figure:: images/trident/group-regular-shots/group-member-profile-1.png
        :width: 85%
        :align: center
@@ -456,6 +512,8 @@ to their profile.
 
 ..
 
+.. _userTGMemberProfileMiddle:
+
 .. figure:: images/trident/group-regular-shots/group-member-profile-2.png
        :width: 85%
        :align: center
@@ -463,6 +521,8 @@ to their profile.
        Member profile, middle
 
 ..
+
+.. _userTGMemberProfileVouchesFor:
 
 .. figure:: images/trident/group-regular-shots/group-member-profile-3.png
        :width: 85%
@@ -484,6 +544,8 @@ for another member, but has not yet been vouched for by
 any other member. We will discuss vouching in the section
 on :ref:`vouching`.
 
+.. _userTGMemberProfileVouchesMade:
+
 .. figure:: images/trident/group-regular-shots/group-member-profile-4.png
        :width: 85%
        :align: center
@@ -495,6 +557,8 @@ on :ref:`vouching`.
 The ``Airports`` page shows a list of airports members of
 the current trust group indicate as the airport nearest to
 them.
+
+.. _userTGAirportsList:
 
 .. figure:: images/trident/group-regular-shots/group-airports.png
        :width: 85%
@@ -508,6 +572,8 @@ Click on any airport abbreviation in the list, and you'll
 be taken to a new page with a list of members who have
 indicated the airport is the airport nearest to them.
 
+.. _userTGAirportsPHL:
+
 .. figure:: images/trident/group-regular-shots/group-airports-phl.png
        :width: 85%
        :align: center
@@ -515,6 +581,8 @@ indicated the airport is the airport nearest to them.
        Members with PHL airport
 
 ..
+
+.. _userTGAirportsSEA:
 
 .. figure:: images/trident/group-regular-shots/group-airports-sea.png
        :width: 85%
@@ -527,6 +595,8 @@ indicated the airport is the airport nearest to them.
 The ``Contacts`` page shows a list of members of the current
 trust group with their contact information, including
 affiliation, email, telephone, and SMS.
+
+.. _userTGContactList:
 
 .. figure:: images/trident/group-regular-shots/group-contacts.png
        :width: 85%
@@ -544,6 +614,8 @@ made.
 If no vouches have been made yet, you'll get a mostly
 blank page:
 
+.. _userTGNoVouches:
+
 .. figure:: images/trident/group-regular-shots/group-vouches.png
        :width: 85%
        :align: center
@@ -553,6 +625,8 @@ blank page:
 ..
 
 Once at least one vouch has been made, a list will appear:
+
+.. _userTGVouches:
 
 .. figure:: images/trident/group-regular-shots/group-vouches-made.png
        :width: 85%
@@ -579,6 +653,8 @@ The ``PGP Keys`` tab or link doesn't actually take you to a
 new page, it just downloads all PGP keys for the current
 trust group.
 
+.. _userTGDownloadPGPKeys:
+
 .. figure:: images/trident/group-regular-shots/group-pgp-download.png
        :width: 85%
        :align: center
@@ -590,6 +666,8 @@ trust group.
 The ``Mailing List`` tab or links opens a new page listing
 the current trust group's mailing lists and information
 about them.
+
+.. _userMLList:
 
 .. figure:: images/trident/group-regular-shots/group-mailing-list-list.png
        :width: 85%
@@ -603,6 +681,8 @@ Clicking the link found in any row of the ``Shortname``
 column will take you to a page listing members on that
 mailing list. Clicking the link in any row of the ``PGP``
 column will download the PGP keys for that mailing list.
+
+.. _userMLDownloadPGPKeys:
 
 .. figure:: images/trident/group-regular-shots/group-mailing-list-pgp-download.png
        :width: 85%
@@ -618,6 +698,8 @@ Do so by clicking the ``Subscribe`` button found in the
 ``Action`` column of the mailing list to which you would
 like to subscribe.
 
+.. _userMLSubscribe:
+
 .. figure:: images/trident/group-regular-shots/group-mailing-list-new-subscribe.png
        :width: 85%
        :align: center
@@ -630,6 +712,8 @@ Likewise, to unsubscribe to a mailing list from which you
 would not like to receive email, click the ``Unsubscribe``
 button in the ``Action`` column of the mailing list to which
 you would like to unsubscribe.
+
+.. _userMLUnsubscribe:
 
 .. figure:: images/trident/group-regular-shots/group-mailing-list-unsubscribe.png
        :width: 85%
@@ -649,6 +733,8 @@ The ``Wiki`` tab or link opens a new page showing the wiki's
 home page. The second row at the top of the page changes to
 be wiki-related tabs, rather than group-related tabs.
 
+.. _userWikiHomePage:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-home.png
        :width: 85%
        :align: center
@@ -667,6 +753,8 @@ shown in the image below. Once you have your content to your
 satisfaction, make sure to add a summary in the ``Edit
 Summary`` field, then click the ``Save Revision`` button.
 
+.. _userWikiEditor:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-editor.png
        :width: 85%
        :align: center
@@ -677,6 +765,8 @@ Summary`` field, then click the ``Save Revision`` button.
 
 Once the edit has been saved, you'll be taken back to the
 wiki page you were editing, and you'll see the changes made.
+
+.. _userWikiEditMade:
 
 .. figure:: images/trident/group-regular-shots/group-wiki-edit-made.png
        :width: 85%
@@ -690,6 +780,8 @@ Use the ``Source`` tab to see the markdown source and its
 HTML preview for the wiki home page. This page will also
 give you a link to obtaining the raw markdown file.
 
+.. _userWikiSource:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-source.png
        :width: 85%
        :align: center
@@ -700,6 +792,8 @@ give you a link to obtaining the raw markdown file.
 
 To see a history of edits made to the wiki, use the
 ``History`` tab.
+
+.. _userWikiEditHistory:
 
 .. figure:: images/trident/group-regular-shots/group-wiki-edit-history.png
        :width: 85%
@@ -712,6 +806,8 @@ To see a history of edits made to the wiki, use the
 The next tab, ``Options``, pages can be moved, deleted,
 and/or copied.
 
+.. _userWikiOptionsTop:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-options-1.png
        :width: 85%
        :align: center
@@ -719,6 +815,8 @@ and/or copied.
        Wiki options, top
 
 ..
+
+.. _userWikiOptionsBottom:
 
 .. figure:: images/trident/group-regular-shots/group-wiki-options-2.png
        :width: 85%
@@ -735,6 +833,8 @@ column to view any of the child pages. If no child pages
 have been added, as is the case below, just the root paths
 will be shown.
 
+.. _userWikiChildPages:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-child-pages.png
        :width: 85%
        :align: center
@@ -746,6 +846,8 @@ will be shown.
 To add more child pages, go to the ``New Page`` tab. Name
 your page, then click the ``Create New Page`` button.
 
+.. _userWikiNewPage:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-new-page.png
        :width: 85%
        :align: center
@@ -756,6 +858,8 @@ your page, then click the ``Create New Page`` button.
 
 This will take you to an editor page where you can write up
 your new wiki page.
+
+.. _userWikiEditNewPage:
 
 .. figure:: images/trident/group-regular-shots/group-wiki-new-page-edit-1.png
        :width: 85%
@@ -770,6 +874,8 @@ Once you're done editing, give a summary of the edits in the
 button. This will take you to a new page, showing the new
 page.
 
+.. _userWikiPageCreated:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-new-page-edit-2.png
        :width: 85%
        :align: center
@@ -781,6 +887,8 @@ page.
 This automatically updates the list of child pages found on
 the ``Child Pages`` page.
 
+.. _userWikiChildPagesUpdated:
+
 .. figure:: images/trident/group-regular-shots/group-wiki-child-pages-updated.png
        :width: 85%
        :align: center
@@ -791,6 +899,8 @@ the ``Child Pages`` page.
 
 You can also search through all the wiki pages available to
 the current trust group.
+
+.. _userWikiSearch:
 
 .. figure:: images/trident/group-regular-shots/group-wiki-search.png
        :width: 85%
@@ -815,6 +925,8 @@ new file`` button and an ``Add a new directory`` button.
 Otherwise, it will show a list of available directories, as
 well as the ``Add`` buttons.
 
+.. _userFilesHomePage:
+
 .. figure:: images/trident/group-regular-shots/group-files-home-page.png
        :width: 85%
        :align: center
@@ -831,6 +943,8 @@ To add a new directory, you must give the filepath of the
 new directory and a brief description of the directory. Then
 click the ``Create new directory`` button.
 
+.. _userFilesAddDir:
+
 .. figure:: images/trident/group-regular-shots/group-files-directory-add.png
        :width: 85%
        :align: center
@@ -841,6 +955,8 @@ click the ``Create new directory`` button.
 
 The home page list of directories will be updated
 accordingly.
+
+.. _userFilesAvailDirs:
 
 .. figure:: images/trident/group-regular-shots/group-files-home-page-dir-add.png
        :width: 85%
@@ -856,6 +972,8 @@ takes you to a new page where you can give the file a name,
 a description, and chose the file from your local
 filesystem. Then, click the ``Create new file`` button.
 
+.. _userFilesNewFile:
+
 .. figure:: images/trident/group-regular-shots/group-files-file-add-1.png
        :width: 85%
        :align: center
@@ -868,6 +986,8 @@ Once submitted, a new page will show that the file has been
 uploaded and to which path. It also gives some statistics
 about the current directory and files.
 
+.. _userFilesConfirmNew:
+
 .. figure:: images/trident/group-regular-shots/group-files-file-add-2.png
        :width: 85%
        :align: center
@@ -878,6 +998,8 @@ about the current directory and files.
 
 The ``Files`` tab's home page is also updated, but it is a
 little subtle when a file is added.
+
+.. _userFilesConfirmAdd:
 
 .. figure:: images/trident/group-regular-shots/group-files-home-page-file-add.png
        :width: 85%
@@ -942,6 +1064,8 @@ section where you can write a comment about why you are
 vouching for the member and make attestations about your
 relationship to the member.
 
+.. _userMemberBlankVouch:
+
 .. figure:: images/trident/group-regular-shots/group-vouch-1.png
        :width: 85%
        :align: center
@@ -951,6 +1075,8 @@ relationship to the member.
 ..
 
 Fill in the form, then click the ``Vouch`` button.
+
+.. _userMemberFilledVouch:
 
 .. figure:: images/trident/group-regular-shots/group-vouch-2.png
        :width: 85%
@@ -965,6 +1091,8 @@ that members profile forever. You can update the vouch, or
 delete it, if necessary. Additionally, vouches made by the
 member are listed right above the vouches made for the
 member.
+
+.. _userMemberVouchMade:
 
 .. figure:: images/trident/group-regular-shots/group-vouch-3.png
        :width: 85%
@@ -985,6 +1113,8 @@ with their account.
 Once you have given the email in the ``Search email`` field,
 click the ``Search`` button.
 
+.. _userNominateSearch:
+
 .. figure:: images/trident/group-regular-shots/group-nominate-1.png
        :width: 85%
        :align: center
@@ -996,6 +1126,8 @@ click the ``Search`` button.
 If there is a user tied to the given email address, the user
 will show up in a list on the next page. Click the
 ``Select`` button to continue.
+
+.. _userNominateSearchResults:
 
 .. figure:: images/trident/group-regular-shots/group-nominate-2.png
        :width: 85%
@@ -1018,6 +1150,8 @@ user, then you toggle the three attestations to confirm your
 relationship to the user. Then, click the ``Nominate``
 button.
 
+.. _userNominateVouch:
+
 .. figure:: images/trident/group-regular-shots/group-nominate-3.png
        :width: 85%
        :align: center
@@ -1028,6 +1162,8 @@ button.
 
 If the submission goes correctly, this is indicated at the
 bottom of the page.
+
+.. _userNominateSuccess:
 
 .. figure:: images/trident/group-regular-shots/group-nominate-4.png
        :width: 85%
@@ -1047,6 +1183,8 @@ The final way to vouch for members is to use the ``Vouching
 Control Panel`` found in a tab or link of the same name
 within the group perspective. This panel allows you to
 submit vouches in batches.
+
+.. _userVouchingCtrlPanel:
 
 .. figure:: images/trident/group-regular-shots/group-vouching-ctrl-panel.png
        :width: 85%

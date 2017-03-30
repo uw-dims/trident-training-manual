@@ -35,11 +35,18 @@ initial basic task.
 Logging in to Trident
 ~~~~~~~~~~~~~~~~~~~~~
 
-In order to do anything in Trident, you must be logged in.
-This can be done at the command line, or through the web
-application using a web browser. The latter is described in
-In a web browser, navigate to the URL of the Trident
-system. The following page should appear:
+In order to do anything in Trident, authentication is required.  This can be
+done at the command line, or through the web application using a web browser.
+
+.. note::
+
+   This section only covers authentication and actions
+   using the web application user interface. For details
+   of command line use, see examples in
+   Section :ref:`systemadministration`.
+
+In a web browser, navigate to the URL of the Trident system. The following page
+should appear:
 
 .. _tridentHomePage:
 

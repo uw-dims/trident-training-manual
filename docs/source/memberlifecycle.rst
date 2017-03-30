@@ -1,13 +1,10 @@
 .. _memberlifecycle:
 
-Lifecycle of a Trident Member
+Trust Group Member Activities
 =============================
 
-Introduction
-------------
-
 This chapter serves as a training guide for members of a
-trust group using a Trident user portal system. It clearly
+trust group using a Trident portal system. It clearly
 shows what activities a member may pursue and attributes she
 may manage. These activities include updating a member's
 profile and other personal details, managing mailing list

@@ -61,6 +61,8 @@ should appear:
 Click one of the ``Sign In`` buttons to go to the login
 page:
 
+.. _tridentLoginPage:
+
 .. figure:: images/trident/trident-login-page.png
        :width: 85%
        :align: center
@@ -72,6 +74,8 @@ page:
 Enter your credentials, and click the ``Sign In`` button.
 This will bring you to your user's home page, which will
 look similarly to this page:
+
+.. _tridentUserLoggedIn:
 
 .. figure:: images/trident/user-logged-in.png
        :width: 85%

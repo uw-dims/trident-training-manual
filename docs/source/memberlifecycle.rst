@@ -17,6 +17,15 @@ User Attribute Management
 
 This section will cover management of a user's attributes.
 
+While most (if not all) of the time, a user of the Trident
+portal system will be a member of a trust group, a user can
+exist without being a member. This section covers actions
+any user or member can take. Thus, we use the words "user"
+and "member" interchangeably. It should be noted, there are
+actions which only a user who is also a trust group member
+can take. These actions are covered in Section
+:ref:`usergroupmanagement`.
+
 Profile Management
 ------------------
 

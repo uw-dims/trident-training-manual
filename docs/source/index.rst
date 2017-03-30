@@ -13,23 +13,6 @@ administering trust groups by trust group leader(s), and
 trust group member activities (such as management of the member's
 profile, mailing list memberships, using the Wiki, etc.)
 
-Document Overview
-~~~~~~~~~~~~~~~~~
-
-This document is divided into chapters as follows:
-
-+ Section :ref:`introduction` introduces the training
-  manual.
-
-+ Section :ref:`memberlifecycle` guides members through
-  activities and attributes they can manage.
-
-+ Section :ref:`grouplifecycle` guides trust group admins
-  though activities and attributes they can manage.
-
-+ Section :ref:`systemadministration` guides system admins
-  through activities and attributes they can manage.
-
 Chapter Index
 ~~~~~~~~~~~~~
 

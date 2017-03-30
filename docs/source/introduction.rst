@@ -9,6 +9,22 @@ Introduction
 
 ..
 
+Document Overview
+~~~~~~~~~~~~~~~~~
+
+The remainder of this document is divided into chapters
+that are focused on specifics needed by as follows:
+
++ Section :ref:`memberlifecycle` guides members through
+  activities and attributes they can manage.
+
++ Section :ref:`grouplifecycle` guides trust group admins
+  though activities and attributes they can manage.
+
++ Section :ref:`systemadministration` guides system admins
+  through activities and attributes they can manage.
+
+
 Logging in to Trident
 ---------------------
 

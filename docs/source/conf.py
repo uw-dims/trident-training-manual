@@ -121,11 +121,11 @@ pygments_style = 'sphinx'
 #keep_warnings = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-
-if not on_rtd and os.environ.get('INCLUDETODOS') == "True":
-    todo_include_todos = True
-else:
+# We don't want todos on ReadTheDocs.
+if on_rtd or os.environ.get('INCLUDETODOS') == "False":
     todo_include_todos = False
+else:
+    todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------
 

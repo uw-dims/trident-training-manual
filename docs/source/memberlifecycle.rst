@@ -482,13 +482,7 @@ the user ``dittrich``, but he has not yet vouched for anyone.
 In this next example, the user ``trident`` has vouched
 for another member, but has not yet been vouched for by
 any other member. We will discuss vouching in the section
-on :ref:`manageableactivities`.
-
-.. todo::
-
-    Where should vouching go? User section or group section?
-
-..
+on :ref:`vouching`.
 
 .. figure:: images/trident/group-regular-shots/group-member-profile-4.png
        :width: 85%

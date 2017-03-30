@@ -24,14 +24,18 @@ that are focused on specifics needed by as follows:
 + Section :ref:`systemadministration` guides system admins
   through activities and attributes they can manage.
 
+Each of these groups of activities requires logging in to
+Trident, so the remainder of this section covers this
+initial basic task.
 
 Logging in to Trident
 ---------------------
 
-In order to manage a member of a Trident trust group, the
-member must have access to a running Trident system. In your
-web browser, navigate to the URL of the system to which you
-have access. That will bring you to the following page:
+In order to do anything in Trident, you must be logged in.
+This can be done at the command line, or through the web
+application using a web browser. The latter is described in
+In a web browser, navigate to the URL of the Trident
+system. The following page should appear:
 
 .. figure:: images/trident/trident-home-page.png
        :width: 85%

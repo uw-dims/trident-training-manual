@@ -33,7 +33,7 @@ initial basic task.
 .. _loggingIn:
 
 Logging in to Trident
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 In order to do anything in Trident, you must be logged in.
 This can be done at the command line, or through the web

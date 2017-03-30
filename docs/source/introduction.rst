@@ -37,6 +37,8 @@ application using a web browser. The latter is described in
 In a web browser, navigate to the URL of the Trident
 system. The following page should appear:
 
+.. _tridentHomePage:
+
 .. figure:: images/trident/trident-home-page.png
        :width: 85%
        :align: center

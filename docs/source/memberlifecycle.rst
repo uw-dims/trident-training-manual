@@ -922,7 +922,7 @@ Each trust group may have unique requirements about the
 number of vouches a user must obtain before she will be
 permitted to become a member of the trust group. For our
 training guide, only one vouch is required for membership.
-Most groups will have more significant requirements. 
+Most groups will have more significant requirements.g
 
 Vouching is not required only for member admittance, but it
 can also be used to indicate member relationships beyond the
@@ -936,7 +936,7 @@ the ``Vouching Control Panel``.
 The first way to vouch for a member is through the member's
 profile. This means the user must already be a member, and
 has already been vouched for enough times to meet the
-current trust group's requirements for membership. 
+current trust group's requirements for membership.g
 
 Go to the home page of the group of the member for whom you
 would like to vouch. To see what vouches have already been
@@ -1015,7 +1015,7 @@ Part of the nomination process is a vouch for the user you
 are nominating. Your trust group will have its own
 requirements, but, in general, any given trust group will
 require a user to obtain a certain number of vouches in
-order for them to be allowed to join the trust group. 
+order for them to be allowed to join the trust group.g
 
 In the page that follows your selection of a user to
 nominate, you are given the opportunity to vouch for them.

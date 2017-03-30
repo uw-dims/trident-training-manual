@@ -9,6 +9,8 @@ Introduction
 
 ..
 
+.. _documentOverview:
+
 Document Overview
 ~~~~~~~~~~~~~~~~~
 
@@ -27,6 +29,8 @@ that are focused on specifics needed by as follows:
 Each of these groups of activities requires logging in to
 Trident, so the remainder of this section covers this
 initial basic task.
+
+.. _loggingIn:
 
 Logging in to Trident
 ---------------------

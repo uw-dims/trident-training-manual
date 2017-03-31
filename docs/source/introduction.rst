@@ -45,8 +45,9 @@ done at the command line, or through the web application using a web browser.
    of command line use, see examples in
    Section :ref:`systemadministration`.
 
-In a web browser, navigate to the URL of the Trident system. The following page
-should appear:
+In a web browser, navigate to the URL of the Trident system.
+A page similar to the one shown in Figure
+:ref:`tridentHomePage` should open.
 
 .. _tridentHomePage:
 
@@ -59,7 +60,7 @@ should appear:
 ..
 
 Click one of the ``Sign In`` buttons to go to the login
-page:
+page (Figure :ref:`tridentLoginPage`).
 
 .. _tridentLoginPage:
 
@@ -73,7 +74,7 @@ page:
 
 Enter your credentials, and click the ``Sign In`` button.
 This will bring you to your user's home page, which will
-look similarly to this page:
+look similarly to Figure :ref:`tridentUserLoggedIn`.
 
 .. _tridentUserLoggedIn:
 

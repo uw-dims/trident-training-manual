@@ -36,7 +36,7 @@ the second row of links at the top of the page from most
 user-related pages, or the ``Profile`` link in the list of
 links on the user's home page. Click either of those to get
 to the ``Profile`` page that has editable attributes. The
-profile can be seen in :ref:`userProfileTop`,
+profile can be seen in Figures :ref:`userProfileTop`,
 :ref:`userProfileMiddle`, and :ref:`userProfileBottom`.
 
 .. _userProfileTop:
@@ -91,7 +91,7 @@ at the top of any user-related page or in the list of links
 found on a user's home page. This section covers these
 actions.
 
-The ``Details`` page (:ref:`userDetails`) is a place to add
+The ``Details`` page (Figure :ref:`userDetails`) is a place to add
 any other details that don't conform to the profile.
 Currently, the only detail type is a callsign.
 
@@ -105,11 +105,11 @@ Currently, the only detail type is a callsign.
 
 ..
 
-The ``Languages`` page (:ref:`userLanguageChoose`) is the
+The ``Languages`` page (Figure :ref:`userLanguageChoose`) is the
 place to add languages a member knows and her skill level
-(:ref:`userLanguageSkill`) at that language. Click the
+(Figure :ref:`userLanguageSkill`) at that language. Click the
 ``Add Language`` button to add a new language
-(:ref:`userLanguageUpdated`).
+(Figure :ref:`userLanguageUpdated`).
 
 .. _userLanguageChoose:
 
@@ -141,7 +141,7 @@ place to add languages a member knows and her skill level
 
 ..
 
-The ``Username`` page (:ref:`userUsername`) allows a member
+The ``Username`` page (Figure :ref:`userUsername`) allows a member
 to change her username.  This can affect external systems,
 so this change should be used with care and caution. Enter
 the new username in the field and use the toggle to confirm
@@ -160,12 +160,12 @@ the change before clicking the ``Change username`` button.
 Password Change
 ---------------
 
-The ``Password`` page (:ref:`userPasswordChange`) allows a
+The ``Password`` page (Figure :ref:`userPasswordChange`) allows a
 member to change her password, provided she knows her current
 password (which she should, since she is logged in already).
 When the member clicks the ``Change Password`` button, she
 is immediately logged out and must login again, with the new
-password (:ref:`userPasswordLogin`).
+password (Figure :ref:`userPasswordLogin`).
 
 .. _userPasswordChange:
 
@@ -190,7 +190,7 @@ password (:ref:`userPasswordLogin`).
 Two Factor Authentication
 -------------------------
 
-The ``2FA Tokens`` page (:ref:`user2FA`) allows a member to
+The ``2FA Tokens`` page (Figure :ref:`user2FA`) allows a member to
 add two-factor authentication tokens. Types of two-factor
 authentications include a variety of one-time passwords:
 time-based, HMAC-based, and single-use. The user must give
@@ -212,7 +212,7 @@ will show in the list of two-factor authentication tokens.
 Email Management
 ----------------
 
-The ``Email`` page (:ref:`userMainEmail`) covers a variety
+The ``Email`` page (Figure :ref:`userMainEmail`) covers a variety
 of things. It lists email addresses tied to a user's
 account, showing if each email address has a PGP key tied to
 it, whether it is verified, whether it is the recovery email
@@ -233,7 +233,7 @@ group.
 
 ..
 
-A user can edit (:ref:`userEmailEdit`) attributes about
+A user can edit (Figure :ref:`userEmailEdit`) attributes about
 email addresses associated with his account by clicking the
 ``Edit`` button in the row of the email address for which
 the edits should be made.
@@ -253,7 +253,7 @@ selected email address the recovery email address for the
 user's account.
 
 Once this is completed, the button disappears and a check
-box appears in the ``Recover`` row (:ref:`userEmailRecover`).
+box appears in the ``Recover`` row (Figure :ref:`userEmailRecover`).
 
 .. _userEmailRecover:
 
@@ -269,7 +269,7 @@ As can be seen, this is also the page where PGP keys are
 to be added, and we will cover this in the next section.
 
 Going back to the ``Email`` page shows another check box
-in the list of email address (:ref:`userConfirmRecover`).
+in the list of email address (Figure :ref:`userConfirmRecover`).
 
 .. _userConfirmRecover:
 
@@ -281,7 +281,7 @@ in the list of email address (:ref:`userConfirmRecover`).
 
 ..
 
-To add an email address (:ref:`userAddNewEmail`), type it
+To add an email address (Figure :ref:`userAddNewEmail`), type it
 in the requested field:
 
 .. _userAddNewEmail:
@@ -297,7 +297,7 @@ in the requested field:
 After clicking the ``Add Email Address`` button, the page
 will refresh with the new address in the list at the top
 of the page. Click the ``Edit`` button to make additional
-changes (:ref:`userEmailAttributes`).
+changes (Figure :ref:`userEmailAttributes`).
 
 .. _userEmailAttributes:
 
@@ -313,7 +313,7 @@ A member must verify any new email addresses he manually adds.
 Click the ``Verify`` button. This will send an email to the
 provided address. The email will contain a verification code.
 Copy and paste the code in the ``Verification Code`` field,
-and click the ``Confirm`` button (:ref:`userVerifyEmail`).
+and click the ``Confirm`` button (Figure :ref:`userVerifyEmail`).
 
 .. _userVerifyEmail:
 
@@ -327,7 +327,7 @@ and click the ``Confirm`` button (:ref:`userVerifyEmail`).
 
 Until the email address is verified, the list of email addresses
 will retain an ``In Process`` status in the ``Verify`` column
-(:ref:`userEmailStatus`).
+(Figure :ref:`userEmailStatus`).
 
 .. _userEmailStatus:
 
@@ -353,7 +353,7 @@ of the user ``mboggess``, she has two email addresses. Only
 one address can be associated with a trust group at a time.
 Since she has two email addresses, she must chose one to
 be associated with the ``main`` trust group of which she is
-a member (:ref:`userMultipleEmails`).
+a member (Figure :ref:`userMultipleEmails`).
 
 .. _userMultipleEmails:
 
@@ -370,7 +370,7 @@ to be the email address associated with the ``main`` trust
 group, the list at the top of the page changes. It now
 shows the @uw email address is associated with the ``main``
 trust group, as indicated by the ``Groups`` column in the
-list (:ref:`userEmailGroupAssoc`).
+list (Figure :ref:`userEmailGroupAssoc`).
 
 .. _userEmailGroupAssoc:
 
@@ -393,7 +393,7 @@ To download all PGP keys tied to any emails associated with
 a user's account, just click the ``Download All PGP Keys``
 tab in the second row at the top of any ``User`` page, or
 click the ``Download All PGP Keys`` link in the list of
-links on the user's home page (:ref:`userDownloadPGPKeys`).
+links on the user's home page (Figure :ref:`userDownloadPGPKeys`).
 
 .. _userDownloadPGPKeys:
 
@@ -409,7 +409,7 @@ To add PGP keys, return to the ``Email`` page. Click the ``Edit``
 button in the row of the email address with which a new PGP
 key should be associated. In the ``PGP Key`` row, choose the
 PGP key file. Then click the ``Upload Key`` button
-(:ref:`userUploadPGPKey`).
+(Figure :ref:`userUploadPGPKey`).
 
 .. _userUploadPGPKey:
 
@@ -424,7 +424,7 @@ PGP key file. Then click the ``Upload Key`` button
 Audit Log
 ---------
 
-The ``Audit Log`` page (:ref:`userAuditLog`) has no editable
+The ``Audit Log`` page (Figure :ref:`userAuditLog`) has no editable
 attributes. It shows all activities accomplished by the user.
 
 .. _userAuditLog:
@@ -463,7 +463,7 @@ tabs.
 
 First of all, to view a list of groups of which a user is a
 member, click the ``Group`` tab in the top row of any page
-(:ref:`userTGList`).
+(Figure :ref:`userTGList`).
 
 .. _userTGList:
 
@@ -476,7 +476,7 @@ member, click the ``Group`` tab in the top row of any page
 ..
 
 To see more information about a certain group, click one of
-the links in the list (:ref:`userTGAttrList`).
+the links in the list (Figure :ref:`userTGAttrList`).
 
 .. _userTGAttrList:
 
@@ -497,14 +497,14 @@ not allowed to change attributes about the group or its
 members. One notable exception is that regular members are
 allowed to nominate new users to a trust group and vouch for
 current members of a trust group. Nominating and vouching
-will be covered in Section :ref:`vouching`. For now, let's
+will be covered in Section Figure :ref:`vouching`. For now, let's
 go over the attributes viewable by members.
 
 The first link on the group home page, or the first tab in
 the second row of all group-related pages, is titled
 ``Members``. Click either the link or the tab to go to a
 page listing all members in the current trust group
-(:ref:`userTGMembersList`).
+(Figure :ref:`userTGMembersList`).
 
 .. _userTGMembersList:
 
@@ -517,7 +517,7 @@ page listing all members in the current trust group
 ..
 
 Click on any member's username link to view their profile
-(:ref:`userTGMemberProfileTop`,
+(Figures :ref:`userTGMemberProfileTop`,
 :ref:`userTGMemberProfileMiddle`,
 :ref:`userTGMemberProfileVouchesFor`).
 
@@ -560,7 +560,7 @@ user ``dittrich``, but he has not yet vouched for anyone.
 
 In this next example, the user ``trident`` has vouched
 for another member, but has not yet been vouched for by
-any other member (:ref:`userTGMemberProfileVouchesMade`).
+any other member (Figure :ref:`userTGMemberProfileVouchesMade`).
 
 .. _userTGMemberProfileVouchesMade:
 
@@ -572,7 +572,7 @@ any other member (:ref:`userTGMemberProfileVouchesMade`).
 
 ..
 
-The ``Airports`` page (:ref:`userTGAirportsList`) shows a
+The ``Airports`` page (Figure :ref:`userTGAirportsList`) shows a
 list of airports members of the current trust group indicate
 as the airport nearest to them.
 
@@ -589,7 +589,7 @@ as the airport nearest to them.
 Click on any airport abbreviation in the list, and a new
 page will open with a list of members who have indicated the
 airport is the airport nearest to them
-(:ref:`userTGAirportsPHL`, :ref:`userTGAirportsSEA`).
+(Figures :ref:`userTGAirportsPHL` and :ref:`userTGAirportsSEA`).
 
 .. _userTGAirportsPHL:
 
@@ -611,7 +611,7 @@ airport is the airport nearest to them
 
 ..
 
-The ``Contacts`` page (:ref:`userTGContactList`) shows a list
+The ``Contacts`` page (Figure :ref:`userTGContactList`) shows a list
 of members of the current trust group with their contact
 information, including affiliation, email, telephone, and SMS.
 
@@ -631,7 +631,7 @@ was vouched for and by whom and on what date the vouch was
 made.
 
 If no vouches have been made yet, the page will be mostly 
-blank (:ref:`userTGNoVouches`):
+blank (Figure :ref:`userTGNoVouches`):
 
 .. _userTGNoVouches:
 
@@ -644,7 +644,7 @@ blank (:ref:`userTGNoVouches`):
 ..
 
 Once at least one vouch has been made, a list will appear
-(:ref:`userTGVouches`):
+(Figure :ref:`userTGVouches`):
 
 .. _userTGVouches:
 
@@ -671,7 +671,7 @@ links can be found listed on the group's main page.
 
 The ``PGP Keys`` tab or link doesn't actually open a new
 page, it just downloads all PGP keys for the current trust
-group (:ref:`userTGDownloadPGPKeys`).
+group (Figure :ref:`userTGDownloadPGPKeys`).
 
 .. _userTGDownloadPGPKeys:
 
@@ -685,7 +685,7 @@ group (:ref:`userTGDownloadPGPKeys`).
 
 The ``Mailing List`` tab or links opens a new page listing
 the current trust group's mailing lists and information
-about them (:ref:`userMLList`).
+about them (Figure :ref:`userMLList`).
 
 .. _userMLList:
 
@@ -701,7 +701,7 @@ Click the link found in any row of the ``Shortname`` column
 to access a page listing members on that mailing list.
 Click the link in any row of the ``PGP`` column to download
 the PGP keys for that mailing list
-(:ref:`userMLDownloadPGPKeys`).
+(Figure :ref:`userMLDownloadPGPKeys`).
 
 .. _userMLDownloadPGPKeys:
 
@@ -717,7 +717,7 @@ When new mailing lists are added, trust group members may
 have to manually add, or subscribe, themselves to the list.
 Click the ``Subscribe`` button found in the ``Action`` column
 of the mailing list in order to subscribe
-(:ref:`userMLSubscribe`).
+(Figure :ref:`userMLSubscribe`).
 
 .. _userMLSubscribe:
 
@@ -732,7 +732,7 @@ of the mailing list in order to subscribe
 Likewise, to unsubscribe to a mailing list and not receive
 email from that list any more, click the ``Unsubscribe``
 button in the ``Action`` column of the mailing list from
-which to unsubscribe (:ref:`userMLUnsubscribe`).
+which to unsubscribe (Figure :ref:`userMLUnsubscribe`).
 
 .. _userMLUnsubscribe:
 
@@ -750,7 +750,7 @@ returning to a group, chose the group from the list of
 available trust groups.
 
 The ``Wiki`` tab or link opens a new page showing the wiki's
-home page (:ref:`userWikiHomePage`). The second row at the
+home page (Figure :ref:`userWikiHomePage`). The second row at the
 top of the page changes to be wiki-related tabs, rather than
 group-related tabs.
 
@@ -765,12 +765,12 @@ group-related tabs.
 ..
 
 If no content has been added to the wiki before, as the
-image :ref:`userWikiHomePage` shows, click the ``edit me``
+image Figure :ref:`userWikiHomePage` shows, click the ``edit me``
 link. This will open an editor (which is also the ``Edit``
 tab).
 
 Any page available to edit will have an editor view similar
-to what is shown in the image :ref:`userWikiEditor`. Once
+to what is shown in the image Figure :ref:`userWikiEditor`. Once
 all edits have been completed, add a summary in the ``Edit
 Summary`` field, then click the ``Save Revision`` button.
 
@@ -785,7 +785,7 @@ Summary`` field, then click the ``Save Revision`` button.
 ..
 
 Once the edit has been saved, a new page will be available
-to view, with the edits made (:ref:`userWikiEditMade`).
+to view, with the edits made (Figure :ref:`userWikiEditMade`).
 
 .. _userWikiEditMade:
 
@@ -797,7 +797,7 @@ to view, with the edits made (:ref:`userWikiEditMade`).
 
 ..
 
-Use the ``Source`` tab (:ref:`userWikiSource`) to see the
+Use the ``Source`` tab (Figure :ref:`userWikiSource`) to see the
 markdown source and its HTML preview for the wiki home page.
 This page will also contains a link to the raw markdown file.
 
@@ -812,7 +812,7 @@ This page will also contains a link to the raw markdown file.
 ..
 
 To see a history of edits made to the wiki, use the
-``History`` tab (:ref:`userWikiEditHistory`).
+``History`` tab (Figure :ref:`userWikiEditHistory`).
 
 .. _userWikiEditHistory:
 
@@ -825,7 +825,7 @@ To see a history of edits made to the wiki, use the
 ..
 
 The next tab, ``Options``, pages can be moved, deleted,
-and/or copied (:ref:`userWikiOptionsTop`,
+and/or copied (Figures :ref:`userWikiOptionsTop`,
 :ref:`userWikiOptionsBottom`).
 
 .. _userWikiOptionsTop:
@@ -848,12 +848,12 @@ and/or copied (:ref:`userWikiOptionsTop`,
 
 ..
 
-The ``Child Pages`` tab (:ref:`userWikiChildPages`) lists
+The ``Child Pages`` tab (Figure :ref:`userWikiChildPages`) lists
 any child pages of the wiki. Click on the ``Path`` links to
 list any child pages of that root page. Click the ``View``
 link in the ``Action`` column to view any of the child pages.
 If no child pages have been added, as is the case in image
-:ref:`userWikiChildPages`, just the root paths will be shown.
+Figure :ref:`userWikiChildPages`, just the root paths will be shown.
 
 .. _userWikiChildPages:
 
@@ -866,7 +866,7 @@ If no child pages have been added, as is the case in image
 ..
 
 To add more child pages, go to the ``New Page`` tab
-(:ref:`userWikiNewPage`). Name the page, then click the
+(Figure :ref:`userWikiNewPage`). Name the page, then click the
 ``Create New Page`` button.
 
 .. _userWikiNewPage:
@@ -880,7 +880,7 @@ To add more child pages, go to the ``New Page`` tab
 ..
 
 This will open an editor page where the new wiki page can be
-written (:ref:`userWikiEditNewPage`).
+written (Figure :ref:`userWikiEditNewPage`).
 
 .. _userWikiEditNewPage:
 
@@ -895,7 +895,7 @@ written (:ref:`userWikiEditNewPage`).
 Once edits are complete, give a summary of the edits in the
 ``Edit Summary`` field, and click the ``Save Revision``
 button. This will open a new page, showing the new page
-(:ref:`userWikiPageCreated`).
+(Figure :ref:`userWikiPageCreated`).
 
 .. _userWikiPageCreated:
 
@@ -908,7 +908,7 @@ button. This will open a new page, showing the new page
 ..
 
 This automatically updates the list of child pages found on
-the ``Child Pages`` page (:ref:`userWikiChildPagesUpdated`).
+the ``Child Pages`` page (Figure :ref:`userWikiChildPagesUpdated`).
 
 .. _userWikiChildPagesUpdated:
 
@@ -921,7 +921,7 @@ the ``Child Pages`` page (:ref:`userWikiChildPagesUpdated`).
 ..
 
 Searches through all the wiki pages available to
-the current trust group is possible (:ref:`userWikiSearch`).
+the current trust group is possible (Figure :ref:`userWikiSearch`).
 
 .. _userWikiSearch:
 
@@ -938,7 +938,7 @@ group perspective, click the ``User`` or ``Group`` tabs in
 the top row of the page. If returning to a group, chose the
 group from the list of available trust groups.
 
-The ``Files`` link or tab (:ref:`userFilesHomePage`)
+The ``Files`` link or tab (Figure :ref:`userFilesHomePage`)
 organizes files for the current trust group. Members can add
 both directories and files, view a list of available
 artifacts, and view the available artifacts. If no files or
@@ -958,7 +958,7 @@ list of available directories, as well as the ``Add`` buttons.
 ..
 
 To add a directory, use the ``Add Directory`` tab
-(:ref:`userFilesAddDir`) in the second row at the top of the
+(Figure :ref:`userFilesAddDir`) in the second row at the top of the
 page, or the ``Add a new directory`` button from the
 ``Files`` home page.
 
@@ -977,7 +977,7 @@ optional. Then click the ``Create new directory`` button.
 ..
 
 The home page list of directories will be updated
-accordingly (:ref:`userFilesAvailDirs`).
+accordingly (Figure :ref:`userFilesAvailDirs`).
 
 .. _userFilesAvailDirs:
 
@@ -993,7 +993,7 @@ To add a file, click either the ``Add File`` tab or the
 ``Add a new file`` button from the ``Files`` home page. This
 takes opens a new page. Name the file, give a description,
 and choose the file from the local filesystem. Then, click
-the ``Create new file`` button (:ref:`userFilesNewFile`).
+the ``Create new file`` button (Figure :ref:`userFilesNewFile`).
 
 .. _userFilesNewFile:
 
@@ -1008,7 +1008,7 @@ the ``Create new file`` button (:ref:`userFilesNewFile`).
 Once submitted, a new page will show that the file has been
 uploaded and to which path. It also gives some statistics
 about the current directory and files
-(:ref:`userFilesConfirmNew`).
+(Figure :ref:`userFilesConfirmNew`).
 
 .. _userFilesConfirmNew:
 
@@ -1022,7 +1022,7 @@ about the current directory and files
 
 The ``Files`` home page is also updated, but it is a little
 subtle when only a file has been added
-(:ref:`userFilesConfirmAdd`).
+(Figure :ref:`userFilesConfirmAdd`).
 
 .. _userFilesConfirmAdd:
 
@@ -1087,7 +1087,7 @@ then choose the user. This opens his profile page. Scroll
 all the way to the bottom of the profile, and there is a form
 section where a comment can be written regarding the vouch
 to be made and attestations about relationship with the
-member (:ref:`userMemberBlankVouch`).
+member (Figure :ref:`userMemberBlankVouch`).
 
 .. _userMemberBlankVouch:
 
@@ -1100,7 +1100,7 @@ member (:ref:`userMemberBlankVouch`).
 ..
 
 Fill in the form, then click the ``Vouch`` button
-(:ref:`userMemberFilledVouch`).
+(Figure :ref:`userMemberFilledVouch`).
 
 .. _userMemberFilledVouch:
 
@@ -1116,7 +1116,7 @@ Once the vouch is made for a member, this vouch will be on
 that member's profile forever. The vouch can be updated, or
 deleted it, if necessary. Additionally, vouches made by the
 member are listed right above the vouches made for the
-member (:ref:`userMemberVouchMade`).
+member (Figure :ref:`userMemberVouchMade`).
 
 .. _userMemberVouchMade:
 
@@ -1136,7 +1136,7 @@ exist in the system. Then, search for the user by the email
 address associated with their account.
 
 Fill in the email in the ``Search email`` field, and click
-the ``Search`` button (:ref:`userNominateSearch`).
+the ``Search`` button (Figure :ref:`userNominateSearch`).
 
 .. _userNominateSearch:
 
@@ -1150,7 +1150,7 @@ the ``Search`` button (:ref:`userNominateSearch`).
 
 If there is a user tied to the given email address, the user
 will show up in a list on the next page. Click the ``Select``
-button to continue (:ref:`userNominateSearchResults`).
+button to continue (Figure :ref:`userNominateSearchResults`).
 
 .. _userNominateSearchResults:
 
@@ -1172,7 +1172,7 @@ A vouch form opens in the page that follows the selection of
 a user to nominate. Write a comment about the reason for
 vouching for the user, then toggle the three attestations to
 confirm relationship with the user. Then, click the ``Nominate``
-button (:ref:`userNominateVouch`).
+button (Figure :ref:`userNominateVouch`).
 
 .. _userNominateVouch:
 
@@ -1185,7 +1185,7 @@ button (:ref:`userNominateVouch`).
 ..
 
 If the submission goes correctly, it is indicated at the
-bottom of the page (:ref:`userNominateSuccess`).
+bottom of the page (Figure :ref:`userNominateSuccess`).
 
 .. _userNominateSuccess:
 
@@ -1201,7 +1201,7 @@ Return to the ``Members`` page for the current trust group.
 The list of members is updated.  The user ``bob`` had
 previously not been on the list of members, but now that
 member is there. The user's ``Vouches`` column is also
-automatically updated (:ref:`userTGMemberUpdate`).
+automatically updated (Figure :ref:`userTGMemberUpdate`).
 
 .. _userTGMemberUpdate:
 
@@ -1216,7 +1216,7 @@ automatically updated (:ref:`userTGMemberUpdate`).
 The final way to vouch for members is to use the ``Vouching
 Control Panel`` found in a tab or link of the same name
 within the group perspective. This panel allows vouches to
-be submitted in batches (:ref:`userVouchingCtrlPanel`).
+be submitted in batches (Figure :ref:`userVouchingCtrlPanel`).
 
 .. _userVouchingCtrlPanel:
 

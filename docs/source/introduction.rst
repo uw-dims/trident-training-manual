@@ -85,3 +85,36 @@ look similarly to this page:
 
 ..
 
+In the top right corner, below the user's image, are some
+smaller links. These show the current Trident version, the
+current user, the logout link, and the ``UserMode``. It
+initially indicates the ``UserMode`` is ``Regular`` or not an
+admin user. To "swap" to being an admin user, click the
+``UserMode`` link (:ref:`userSwapadminRegular`).
+
+.. _userSwapadminRegular:
+
+.. figure:: images/trident/user-admin-shots/user-regular-swapadmin.png
+       :width: 85%
+       :align: center
+
+       User swapadmin, regular
+
+..
+
+This will swap the user into ``SysAdmin`` mode
+(:ref:`userSwapadminAdmin`). This does not necessarily mean
+the user is a system administrator, though it may. It does
+mean the user is now, at the least, a trust group
+administrator.
+
+.. _userSwapadminAdmin:
+
+.. figure:: images/trident/user-admin-shots/user-admin-swapadmin.png
+       :width: 85%
+       :align: center
+
+       User swapadmin, admin
+
+..
+

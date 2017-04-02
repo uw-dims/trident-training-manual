@@ -1090,8 +1090,8 @@ accomplished by other *vouching* for the prospective new user.
     not only could they be kicked out of the trust group, but anyone who
     *vouched for them* could also be removed (if the violation was severe
     enough.) A breakdown in trust in a group that shares highly sensitive
-    information can potentially damage the trust fabric throughout the entire
-    group such that the group looses its effectiveness.
+    information can potentially damage the trust fabric of the
+    group such that the effectiveness of the group is lost.
 
 Each trust group may have unique requirements about the
 number of vouches a user must obtain before she will be

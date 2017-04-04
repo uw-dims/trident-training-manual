@@ -691,6 +691,20 @@ notify all members of the change of keys so the members can
 go retrieve the new keys (see Section
 :ref:`userpgpkeymanagement`).
 
+To log out of the CLI as a trust group admin, run the
+command ``system swapadmin`` again (Figure
+:ref:`cliUserSwapadmin`).
+
+.. _cliUserSwapadmin:
+
+.. figure:: images/trident/cli-shots/cli-user-swapadmin.png
+       :width: 85%
+       :align: center
+
+       CLI log out
+
+..
+
 This concludes the activities manageable by a trust group
 administrator. To see tasks for regular members of trust
 groups or for system administrators, please see the other

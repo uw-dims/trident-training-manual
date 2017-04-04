@@ -9,7 +9,7 @@ portal system.  It includes activities such as setting
 trust group policies for vetting, vouching, and idle
 timeouts, resetting user passwords, adding users manually,
 and more. Only trust group administrator members are allowed
-to view or manage these tasks. 
+to view or manage these tasks.
 
 
 .. _adminuseractivities:
@@ -42,7 +42,7 @@ the users in our example group were nominated (nor have any
 of the users uploaded PGP keys), this activities fails
 (Figure :ref:`userAdminPasswordResetFail`). Once all members have
 uploaded keys and there are members who have been nominated,
-this activity can continue. 
+this activity can continue.
 
 .. _userAdminPasswordResetFail:
 
@@ -74,7 +74,7 @@ group, adding a new trust group, updating the group's
 settings and adding modules to the group, and a couple
 member-related actions.
 
-When logged in as a trust group administrator, the ``Group`` 
+When logged in as a trust group administrator, the ``Group``
 home page looks like what is shown in Figure :ref:`groupHomePage`).
 
 .. _groupHomePage:
@@ -186,7 +186,7 @@ modules (not yet added in Figure :ref:`groupSettingsTop`).
 
 There are three additional modules that are option to the
 use of a Trident portal system and may be added at any time:
-the Wiki module, the Files module, and the Calendar module. 
+the Wiki module, the Files module, and the Calendar module.
 
 .. note::
 
@@ -382,7 +382,7 @@ list, and to download PGP keys for the current mailing list.
 
 Click the ``Subscribe`` or ``Unsubscribe`` tabs to subscribe
 or unsubscribe the current member from the current mailing
-list. Click the ``PGP Key`` tab to download the PGP keys for
+list. Click the ``PGP Key`` tab to download the PGP key for
 the current mailing list.
 
 These actions can also be completed from the ``Mailing
@@ -403,6 +403,293 @@ the ``PGP`` column to download the PGP key for that mailing
 list. To unsubscribe or subscribe to a mailing list, click
 the available button in the ``Action``
 column.
+
+
+.. _cliactivities:
+
+CLI Activities
+~~~~~~~~~~~~~~
+
+The sections covers activities that can only be accomplished
+via the ``CLI`` page. This page utilizes a command line
+interface through which the databases holding information of
+the Trident system may be manipulated. These activities
+include adding a new user to the Trident system, removing a
+member from a trust group, and removing a mailing list from
+a trust group.
+
+Click the link on the user's home page or the tab in the
+second row at the top of the page to go to the ``CLI`` page.
+A new page will open with a field to enter the command,
+simulating a command, and the larger, top box returns the
+results of the command executed (see Figure
+:ref:`cliHomePage`` which shows the results of running
+"help" via the command line interface).
+
+.. _cliHomePage:
+
+.. figure:: images/trident/cli-shots/cli-user-help.png
+       :width: 85%
+       :align: center
+
+       CLI home page
+
+..
+
+Figure :ref:`cliHomePage` shows help for using the Trident
+CLI when a user is not logged in as a sysadmin. Each top
+level command indicates the domains of attributes which can
+be manipulated via the CLI: ``user``, to manipulate user
+information; ``group``, to manipulate trust group
+information, ``ml`` to manipulate mailing list information,
+and ``system``, to manipulate system information.
+
+Figure :ref:`cliUserGroupHelp` shows the results from
+running the command ``group help``.
+
+.. _cliUserGroupHelp:
+
+.. figure:: images/trident/cli-shots/cli-user-group-help.png
+       :width: 85%
+       :align: center
+
+       CLI group help
+
+..
+
+A user must become a sysadmin via the CLI to gain access to
+sysadmin CLI commands; being logged in as a sysadmin in the
+webapp does not allow sysadmin access via the CLI. To obtain
+sysadmin rights, use the command ``system swapadmin``, as
+shown in Figure :ref:`cliSwapadmin`.
+
+.. _cliSwapadmin:
+
+.. figure:: images/trident/cli-shots/cli-admin-swapadmin.png
+       :width: 85%
+       :align: center
+
+       CLI sysadmin
+
+..
+
+Once logged in as a sysadmin, more commands are available.
+See Figure :ref:`cliAdminGroupHelp` and compare with Figure
+:ref:`cliUserGroupHelp` for the additional commands
+available in the ``group`` domain.
+
+.. _cliAdminGroupHelp:
+
+.. figure:: images/trident/cli-shots/cli-admin-group-help.png
+       :width: 85%
+       :align: center
+
+       CLI group help
+
+..
+
+Trust group admins should use the web app interface for as
+many tasks as possible. However, there are some tasks which
+are not able to be accomplished with the web app, and these
+must be handled using the ``CLI`` page. One of those tasks
+is adding a new user to the system.
+
+All users must be added to the Trident system before they
+can become members of any trust groups. Help for the
+``user`` domain can be seen in Figure
+:ref:`cliAdminUserHelp`.
+
+.. _cliAdminUserHelp:
+
+.. figure:: images/trident/cli-shots/cli-admin-user-help.png
+       :width: 85%
+       :align: center
+
+       CLI user help
+
+..
+
+To add a user, use the command ``user add new <username>
+<email>`` where ``<username>`` is a username for the user
+and ``<email>`` is a valid email address the user owns. See
+Figure :ref:`cliAdminUserAdd`.
+
+.. _cliAdminUserAdd:
+
+.. figure:: images/trident/cli-shots/cli-admin-user-add.png
+       :width: 85%
+       :align: center
+
+       CLI user add
+
+..
+
+The user can always change their username using the
+``Username`` page in the ``User`` perspective of the portal.
+See Figure :ref:`userUsername` in Section
+:ref:`usermanagement`. The email must be the correct, valid
+email address to which the user wishes to receive communications
+regarding initial Trident use. Email addresses can be
+changed, added, or deleted once the user has Trident access.
+See the Section :ref:`useremailmanagement`.
+
+Additionally, a trust group admin must set the user's
+initial password. The user can change their password via the
+``Password`` page in the ``User`` perspective (see Section
+:ref:`userpasswordchange``). The initial password must be
+set by the administrator and then passed along to the user
+either through out-of-band means or via an encrypted
+message.
+
+To set a user's password via the CLI, use the command ``user
+password set portal <username> <password>`` in the field
+simulating the command line on the ``CLI`` page (Figure
+:ref:`cliAdminPasswordSet`).
+
+.. _cliAdminPasswordSet:
+
+.. figure:: images/trident/cli-shots/cli-admin-new-user-password.png
+       :width: 85%
+       :align: center
+
+       CLI set password
+
+..
+
+The user will now show up in a trust group administrator's
+list of users found on the ``User`` home page (see Figure
+:ref:`cliAdminNewUserList`). The user does not yet exist in
+the trust group. For the user to become a member of the
+trust group, follow the trust group's policies for becoming
+a member (nomination, vouches, etc.).
+
+.. _cliAdminNewUserList:
+
+.. figure:: images/trident/cli-shots/cli-admin-new-user-list.png
+       :width: 85%
+       :align: center
+
+       New user list
+
+..
+
+There are instances where a user must be removed from a
+trust group. Members can be ``blocked`` via the web
+application's ``Group`` perspective (see Figure
+:ref:`groupMemberActions` in Section
+:ref:`groupadminactivities`). This does not remove a member
+completely from the trust group, nor does it remove a member
+as a user from the Trident system itself. These actions must
+be taken via the CLI.
+
+To remove a member from a trust group, use the command
+``group member remove <group> <username>`` in the field
+simulating the command line, where ``<group>`` is the trust
+group from which the user should be removed and ``<username>``
+is the username for the user (Figure
+:ref:`cliAdminRemoveMember`).
+
+.. _cliAdminRemoveMember:
+
+.. figure:: images/trident/cli-shots/cli-admin-group-member-remove.png
+       :width: 85%
+       :align: center
+
+       CLI remove member
+
+..
+
+To remove a user from the Trident system, use the command
+``user delete <username>`` (Figure
+:ref:`cliAdminRemoveUser`).
+
+.. _cliAdminRemoveUser:
+
+.. figure:: images/trident/cli-shots/cli-admin-user-remove.png
+       :width: 85%
+       :align: center
+
+       CLI remove user
+
+..
+
+Finally, trust group administrators are responsible for
+the group's mailing lists. Sometimes, lists must be deleted.
+There is no way to remove a list via the web application
+``Mailing List`` home page (see Figure
+:ref:`groupMailingListList` in Section
+:ref:`groupadminactivities`). Thus, the removal must be
+accomplished via the CLI.
+
+To see what subcommands are available in the ``ml`` domain,
+use the command ``ml help`` (Figure
+:ref:`cliAdminMailingListHelp``).
+
+.. _cliAdminMailingListHelp:
+
+.. figure:: images/trident/cli-shots/cli-admin-mailing-list-remove-1.png
+       :width: 85%
+       :align: center
+
+       CLI ml help
+
+..
+
+To see a current list of available mailing lists, use the
+command ``ml list <group>`` where ``<group>`` is the name of
+the trust group from which to list available mailing lists
+(Figure :ref:`cliAdminMailingListList`).
+
+.. _cliAdminMailingListList:
+
+.. figure:: images/trident/cli-shots/cli-admin-mailing-list-remove-2.png
+       :width: 85%
+       :align: center
+
+       CLI ml group list
+
+..
+
+To remove a mailing list, use the command ``ml remove
+<group> <ml>`` where ``<group>`` is the trust group from
+which the mailing list is to be removed and ``<ml>`` is the
+name of the mailing list to be removed (Figure
+:ref:`cliAdminMailingListRemove`).
+
+.. _cliAdminMailingListRemove:
+
+.. figure:: images/trident/cli-shots/cli-admin-mailing-list-remove-3.png
+       :width: 85%
+       :align: center
+
+       CLI ml remove list
+
+..
+
+The list of mailing lists on the web app's ``Mailing List``
+home page will then be updated (Figure
+:ref:`cliAdminMailingListUpdate`).
+
+.. _cliAdminMailingListUpdate:
+
+.. figure:: images/trident/cli-shots/cli-admin-mailing-list-remove-4.png
+       :width: 85%
+       :align: center
+
+       Mailing list list updated
+
+..
+
+PGP keys are also manageable via the CLI's ``ml`` domain.
+If PGP keys for a mailing list are compromised for some
+reason, they need to be regenerated. Trust group
+administrators can retrieve both public and secret PGP keys,
+as well as regenerate new ones. See Figure
+:ref:`cliAdminMailingListHelp` to see the ``ml`` subcommands
+and the necessary parameters. Trust group admins should then
+notify all members of the change of keys so the members can
+go retrieve the new keys (see Section
+:ref:`userpgpkeymanagement`).
 
 This concludes the activities manageable by a trust group
 administrator. To see tasks for regular members of trust

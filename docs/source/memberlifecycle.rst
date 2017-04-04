@@ -21,7 +21,7 @@ While most (if not all) of the time, a user of the Trident
 portal system will be a member of a trust group, a user can
 exist without being a member. This section covers actions
 any user or member can take. Thus, the words "user" and
-"member" interchangeably. It should be noted, there are
+"member" are used interchangeably. It should be noted, there are
 actions which only a user who is also a trust group member
 can take. These actions are covered in Section
 :ref:`usergroupmanagement`.
@@ -74,12 +74,12 @@ profile can be seen in Figures :ref:`userProfileTop`,
 On the profile page, details such as name, affiliation,
 address, phone number, and airport can be added or modified.
 A profile image can be uploaded. Longer-form attributes
-can be edited, such as postal details and a biography. Failed
+can be edited, such as postal details and biography. Failed
 logins and some activity statistics are also tracked on a
 member's profile.
 
-Click the ``Update Profile`` button, once all modifications
-have been made, to save the changes. The page will then
+Click the ``Update Profile`` button to save the changes
+after modifications have been made. The page will
 refresh with the newly saved information, as well as indicate
 how many fields were updated and how many fields were not
 updated.
@@ -170,7 +170,7 @@ The ``Password`` page (Figure :ref:`userPasswordChange`) allows a
 member to change her password, provided she knows her current
 password (which she should, since she is logged in already).
 When the member clicks the ``Change Password`` button, she
-is immediately logged out and must login again, with the new
+is immediately logged out and must login again with the new
 password (Figure :ref:`userPasswordLogin`).
 
 .. _userPasswordChange:
@@ -227,11 +227,15 @@ of things. It lists email addresses tied to a user's
 account, showing if each email address has a PGP key tied to
 it, whether it is verified, whether it is the recovery email
 address associated with the user's account, and with which
-trust group it will be used.
+trust group it will be used.  This page also provides a way
+to add a new email address, and lists each group and
+associated email addresses for that group.
 
-It also provides a way to add a new email address, and
-lists each group and associated email addresses for that
-group.
+.. note::
+
+    Encryption keys are discussed in Section :ref:`pgpKeys`.
+
+..
 
 .. _userMainEmail:
 
@@ -349,13 +353,15 @@ will retain an ``In Process`` status in the ``Verify`` column
 
 ..
 
+.. TODO
+
 Remember, the via "Edit" screen, an email address can be
 made to be the recovery email address for an account. Only
 one address may be the recovery email.
 
 Since the ``dittrich`` user has not confirmed his new email
 address yet, let's take a look at what happens when a user
-does have multiple verfied email addresses.
+does have multiple verified email addresses.
 
 A user can choose which email address will be associated
 with each trust group of which she is a member. In the case
@@ -375,10 +381,10 @@ a member (Figure :ref:`userMultipleEmails`).
 
 ..
 
-By choosing the second email address (the @uw email address)
+By choosing the second email address (the ``@uw`` email address)
 to be the email address associated with the ``main`` trust
 group, the list at the top of the page changes. It now
-shows the @uw email address is associated with the ``main``
+shows the ``@uw`` email address is associated with the ``main``
 trust group, as indicated by the ``Groups`` column in the
 list (Figure :ref:`userEmailGroupAssoc`).
 
@@ -392,7 +398,7 @@ list (Figure :ref:`userEmailGroupAssoc`).
 
 ..
 
-.. _userpgpkeymanagement:
+.. _pgpKeys:
 
 PGP Keys
 --------
@@ -400,6 +406,16 @@ PGP Keys
 PGP keys can be downloaded and uploaded. They must stay
 current for a user to be able to read any encrypted email
 sent via the trust groups of which the user is a member.
+
+.. note::
+
+    For information on using PGP (or GNU Privacy Guard) keys
+    for secure email communication, see the Free Software
+    Foundation's `Email Self-Defense`_ guide.
+
+..
+
+.. _Email Self-Defense: https://emailselfdefense.fsf.org/en/
 
 To download all PGP keys tied to any emails associated with
 a user's account, just click the ``Download All PGP Keys``
@@ -572,6 +588,8 @@ vouches he has made or vouches other members have made for
 him. In the above example, another user vouched for the
 user ``dittrich``, but he has not yet vouched for anyone.
 
+.. TODO
+
 In this next example, the user ``trident`` has vouched
 for another member, but has not yet been vouched for by
 any other member (Figure :ref:`userTGMemberProfileVouchesMade`).
@@ -644,7 +662,7 @@ members of the current trust group. This list indicates who
 was vouched for and by whom and on what date the vouch was
 made.
 
-If no vouches have been made yet, the page will be mostly 
+If no vouches have been made yet, the page will be mostly
 blank (Figure :ref:`userTGNoVouches`):
 
 .. _userTGNoVouches:
@@ -1068,11 +1086,24 @@ or ``User`` tabs in the top row of the page.
 Vouching for Trust Group Members
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For a user to become a member of a trust group, she must be
-"vouched for" by other members of the trust group.
-Essentially, this means that other members of the trust
-group know the potential member and trust her with
-admittance to the trust group.
+For a new user to become a member of a trust group, she must be
+vetted by existing members of the trust group. This is
+accomplished by other *vouching* for the prospective new user.
+
+.. caution::
+
+    In a trust group where very sensitive information is shared, the vouching
+    process is a serious matter that is not to be taken lightly. When you vouch
+    for someone, that should mean that you personally *know* the person, have
+    *met* them in person, have worked with them on a project demanding *trust*
+    so you have first-hand experience with them and you believe trust is
+    warranted in that person. If this person should violate the trust of the
+    group by improperly sharing or exposing extremely sensitive information,
+    not only could they be kicked out of the trust group, but anyone who
+    *vouched for them* could also be removed (if the violation was severe
+    enough.) A breakdown in trust in a group that shares highly sensitive
+    information can potentially damage the trust fabric of the
+    group such that the effectiveness of the group is lost.
 
 Each trust group may have unique requirements about the
 number of vouches a user must obtain before she will be
@@ -1080,9 +1111,10 @@ permitted to become a member of the trust group. For our
 training guide, only one vouch is required for membership.
 Most groups will have more significant requirements.
 
-Vouching is not required only for member admittance, but it
-can also be used to indicate member relationships beyond the
-minimum requirement needed for membership to the group.
+Vouching is not required only for member admittance, but vouches
+are recorded and available for visualization or for network
+analysis to identify cliques, strength of the trust network,
+etc.
 
 There are three ways for a trust group member to vouch for
 another member: vouch for a member through the member's
@@ -1126,11 +1158,10 @@ Fill in the form, then click the ``Vouch`` button
 
 ..
 
-Once the vouch is made for a member, this vouch will be on
-that member's profile forever. The vouch can be updated, or
-deleted it, if necessary. Additionally, vouches made by the
-member are listed right above the vouches made for the
-member (Figure :ref:`userMemberVouchMade`).
+Once a vouch is recorded, it will be visible on that member's profile forever
+(though vouches can be updated, or deleted it, if necessary). Outbound vouches
+*from* the member are listed right above inbound vouches *to* the member
+(Figure :ref:`userMemberVouchMade`).
 
 .. _userMemberVouchMade:
 
@@ -1142,12 +1173,28 @@ member (Figure :ref:`userMemberVouchMade`).
 
 ..
 
-To vouch for a brand new user, nominate the user. Go to the
-home page of the group to which the user should be nominated.
-The ``Nominate`` tab opens a page which to start the process
-of nominating a user to the trust group. First, the user must
-exist in the system. Then, search for the user by the email
-address associated with their account.
+The typical way to start the process of onboarding a new trust group member
+is to *nominate* them. Go to the home page of the group to which the user
+should be nominated.  The ``Nominate`` tab opens a page which to start the
+process of nominating a user to the trust group. First, the user must exist in
+the system. Then, search for the user by the email address associated with
+their account.
+
+.. attention::
+
+   Standard practice is to *not mention* the existence of the trust group to
+   the prospective member before you nominate them. Should they not receive
+   sufficient vouches to be added to the trust group, it will be an
+   uncomfortable conversation trying to explain why you were not able to get
+   them into the group. Some in the trust group may feel like a degree of
+   breach of trust may have occured from disclosing the existence of the
+   trust group to the public. If someone in the group negatively vouches
+   (i.e., raises a red flag about the trustworthiness of the nominee),
+   it may necessitate an internal policy discussion to adjudicate the
+   situation, which can make the nominee feel slighted and cause a
+   great deal of consternation or bad feelings.
+
+..
 
 Fill in the email in the ``Search email`` field, and click
 the ``Search`` button (Figure :ref:`userNominateSearch`).
@@ -1179,7 +1226,7 @@ button to continue (Figure :ref:`userNominateSearchResults`).
 Part of the nomination process is vouching for the user. A
 trust group will have its own requirements, but, in general,
 any given trust group will require a user to obtain a certain
-number of vouches in order for them to be allowed to join the
+number of vouches in order for them to be vetted into the
 trust group.
 
 A vouch form opens in the page that follows the selection of
@@ -1245,11 +1292,17 @@ be submitted in batches (Figure :ref:`userVouchingCtrlPanel`).
 There are two selections to make to form groups of members
 which can then be acted against all at one time. Choose a
 ``criteria`` (``Unmarked``, ``Dunno``, or ``Vouched``).
-``Unmarked`` means those users have had no action taken
-against them. ``Dunno`` means no relationship with the user.
-``Vouched`` means the user has been vouched for. Then choose
-a limit to create the actual batch. To se the criteria, click
-the ``Change Criteria`` button.
+
+* ``Unmarked`` means there is no vouch established to
+  date for those users.
+
+* ``Dunno`` means there is no existing relationship or
+  experience with the user.
+
+* ``Vouched`` means the user already has a recorded vouch.
+
+Then choose a limit to create the actual batch. To se the criteria, click the
+``Change Criteria`` button.
 
 Walk through the batch, and apply an action against each member
 by toggling the button in the ``Action`` column. Once all

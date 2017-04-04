@@ -17,13 +17,13 @@ Document Overview
 The remainder of this document is divided into chapters
 that are focused on specifics needed by as follows:
 
-+ Section :ref:`memberlifecycle` guides members through
++ Section :ref:`tgMemberActivities` guides members through
   activities and attributes they can manage.
 
-+ Section :ref:`grouplifecycle` guides trust group admins
++ Section :ref:`tgAdminActivities` guides trust group admins
   though activities and attributes they can manage.
 
-+ Section :ref:`systemadministration` guides system admins
++ Section :ref:`systemAdministration` guides system admins
   through activities and attributes they can manage.
 
 Each of these groups of activities requires logging in to
@@ -43,7 +43,7 @@ done at the command line, or through the web application using a web browser.
    This section only covers authentication and actions
    using the web application user interface. For details
    of command line use, see examples in
-   Section :ref:`systemadministration`.
+   Section :ref:`systemAdministration`.
 
 In a web browser, navigate to the URL of the Trident system.
 A page similar to the one shown in Figure

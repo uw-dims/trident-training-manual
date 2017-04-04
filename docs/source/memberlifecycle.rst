@@ -1,4 +1,4 @@
-.. _memberlifecycle:
+.. _tgMemberActivities:
 
 Trust Group Member Activities
 =============================
@@ -11,7 +11,7 @@ profile and other personal details, managing mailing list
 memberships, using the wiki, etc.
 
 
-.. _usermanagement:
+.. _userManagement:
 
 User Management
 ~~~~~~~~~~~~~~~
@@ -24,9 +24,9 @@ any user or member can take. Thus, the words "user" and
 "member" are used interchangeably. It should be noted, there are
 actions which only a user who is also a trust group member
 can take. These actions are covered in Section
-:ref:`usergroupmanagement`.
+:ref:`userGroupManagement`.
 
-.. _userprofilemanagement:
+.. _userProfileManagement:
 
 Profile Management
 ------------------
@@ -84,7 +84,7 @@ refresh with the newly saved information, as well as indicate
 how many fields were updated and how many fields were not
 updated.
 
-.. _userotherdetails:
+.. _userOtherDetails:
 
 Other Personal Details
 ----------------------
@@ -161,7 +161,7 @@ the change before clicking the ``Change username`` button.
 
 ..
 
-.. _userpasswordchange:
+.. _userPwdChange:
 
 Password Change
 ---------------
@@ -193,7 +193,7 @@ password (Figure :ref:`userPasswordLogin`).
 
 ..
 
-.. _user2famanagement:
+.. _user2FAManagement:
 
 Two Factor Authentication
 -------------------------
@@ -217,7 +217,7 @@ will show in the list of two-factor authentication tokens.
 
 ..
 
-.. _useremailmanagement:
+.. _userEmailManagement:
 
 Email Management
 ----------------
@@ -233,7 +233,7 @@ associated email addresses for that group.
 
 .. note::
 
-    Encryption keys are discussed in Section :ref:`pgpKeys`.
+    Encryption keys are discussed in Section :ref:`userPGPKeysManagement`.
 
 ..
 
@@ -398,7 +398,7 @@ list (Figure :ref:`userEmailGroupAssoc`).
 
 ..
 
-.. _pgpKeys:
+.. _userPGPKeysManagement:
 
 PGP Keys
 --------
@@ -449,7 +449,7 @@ PGP key file. Then click the ``Upload Key`` button
 
 ..
 
-.. _userauditlogmanagement:
+.. _userAuditLogManagement:
 
 Audit Log
 ---------
@@ -472,7 +472,7 @@ shown at a time, so click the ``Forward`` button to see
 older activities.
 
 
-.. _usergroupmanagement:
+.. _userGroupManagement:
 
 Group Management
 ~~~~~~~~~~~~~~~~
@@ -482,7 +482,7 @@ member of a trust group may view or manage. The user must
 be a member of a trust group to be able to access any of
 the following pages.
 
-.. _viewableattributes:
+.. _viewableAttributes:
 
 Viewable Group Attributes
 -------------------------
@@ -689,7 +689,7 @@ Once at least one vouch has been made, a list will appear
 ..
 
 
-.. _manageableactivities:
+.. _manageableActivities:
 
 Manageable Group Activities
 ---------------------------
@@ -1313,5 +1313,5 @@ being applied.
 Those are all the tasks a member of a trust group can
 perform. To see tasks for admins of trust groups or for
 system administrators, please see the other chapters in this
-document (Section :ref:`grouplifecycle` and Section
-:ref:`systemadministration`, respectively).
+document (Section :ref:`tgAdminActivities` and Section
+:ref:`systemAdministration`, respectively).

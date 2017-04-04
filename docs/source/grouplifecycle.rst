@@ -1,4 +1,4 @@
-.. _grouplifecycle:
+.. _tgAdminActivities:
 
 Trust Group Administration Activities
 =====================================
@@ -12,7 +12,7 @@ and more. Only trust group administrator members are allowed
 to view or manage these tasks.
 
 
-.. _adminuseractivities:
+.. _adminUserActivities:
 
 Admin Password Reset
 ~~~~~~~~~~~~~~~~~~~~
@@ -62,7 +62,7 @@ this activity can continue.
 ..
 
 
-.. _groupadminactivities:
+.. _adminGroupActivities:
 
 Group Admin Activities
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -405,7 +405,7 @@ the available button in the ``Action``
 column.
 
 
-.. _cliactivities:
+.. _cliActivities:
 
 CLI Activities
 ~~~~~~~~~~~~~~
@@ -527,16 +527,16 @@ Figure :ref:`cliAdminUserAdd`.
 The user can always change their username using the
 ``Username`` page in the ``User`` perspective of the portal.
 See Figure :ref:`userUsername` in Section
-:ref:`usermanagement`. The email must be the correct, valid
+:ref:`userManagement`. The email must be the correct, valid
 email address to which the user wishes to receive communications
 regarding initial Trident use. Email addresses can be
 changed, added, or deleted once the user has Trident access.
-See the Section :ref:`useremailmanagement`.
+See the Section :ref:`userEmailManagement`.
 
 Additionally, a trust group admin must set the user's
 initial password. The user can change their password via the
 ``Password`` page in the ``User`` perspective (see Section
-:ref:`userpasswordchange``). The initial password must be
+:ref:`userPwdChange``). The initial password must be
 set by the administrator and then passed along to the user
 either through out-of-band means or via an encrypted
 message.
@@ -577,7 +577,7 @@ There are instances where a user must be removed from a
 trust group. Members can be ``blocked`` via the web
 application's ``Group`` perspective (see Figure
 :ref:`groupMemberActions` in Section
-:ref:`groupadminactivities`). This does not remove a member
+:ref:`adminGroupActivities`). This does not remove a member
 completely from the trust group, nor does it remove a member
 as a user from the Trident system itself. These actions must
 be taken via the CLI.
@@ -618,7 +618,7 @@ the group's mailing lists. Sometimes, lists must be deleted.
 There is no way to remove a list via the web application
 ``Mailing List`` home page (see Figure
 :ref:`groupMailingListList` in Section
-:ref:`groupadminactivities`). Thus, the removal must be
+:ref:`adminGroupActivities`). Thus, the removal must be
 accomplished via the CLI.
 
 To see what subcommands are available in the ``ml`` domain,
@@ -689,7 +689,7 @@ as well as regenerate new ones. See Figure
 and the necessary parameters. Trust group admins should then
 notify all members of the change of keys so the members can
 go retrieve the new keys (see Section
-:ref:`userpgpkeymanagement`).
+:ref:`userPGPKeysManagement`).
 
 To log out of the CLI as a trust group admin, run the
 command ``system swapadmin`` again (Figure
@@ -708,5 +708,5 @@ command ``system swapadmin`` again (Figure
 This concludes the activities manageable by a trust group
 administrator. To see tasks for regular members of trust
 groups or for system administrators, please see the other
-chapters in this document (Section :ref:`memberlifecycle`
-and Section :ref:`systemadministration`, respectively).
+chapters in this document (Section :ref:`tgMemberActivities`
+and Section :ref:`systemAdministration`, respectively).

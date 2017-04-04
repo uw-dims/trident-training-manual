@@ -26,6 +26,8 @@ actions which only a user who is also a trust group member
 can take. These actions are covered in Section
 :ref:`usergroupmanagement`.
 
+.. _userprofilemanagement:
+
 Profile Management
 ------------------
 
@@ -81,6 +83,8 @@ have been made, to save the changes. The page will then
 refresh with the newly saved information, as well as indicate
 how many fields were updated and how many fields were not
 updated.
+
+.. _userotherdetails:
 
 Other Personal Details
 ----------------------
@@ -157,6 +161,8 @@ the change before clicking the ``Change username`` button.
 
 ..
 
+.. _userpasswordchange:
+
 Password Change
 ---------------
 
@@ -187,6 +193,8 @@ password (Figure :ref:`userPasswordLogin`).
 
 ..
 
+.. _user2famanagement:
+
 Two Factor Authentication
 -------------------------
 
@@ -208,6 +216,8 @@ will show in the list of two-factor authentication tokens.
        Two-factor authentication
 
 ..
+
+.. _useremailmanagement:
 
 Email Management
 ----------------
@@ -382,6 +392,8 @@ list (Figure :ref:`userEmailGroupAssoc`).
 
 ..
 
+.. _userpgpkeymanagement:
+
 PGP Keys
 --------
 
@@ -420,6 +432,8 @@ PGP key file. Then click the ``Upload Key`` button
        Upload PGP key
 
 ..
+
+.. _userauditlogmanagement:
 
 Audit Log
 ---------

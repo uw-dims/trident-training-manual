@@ -19,6 +19,7 @@ Chapter Index
 .. toctree::
    :maxdepth: 3
    :numbered:
+   :caption: Contents:
 
    introduction
    memberlifecycle

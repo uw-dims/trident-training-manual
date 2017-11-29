@@ -353,11 +353,8 @@ will retain an ``In Process`` status in the ``Verify`` column
 
 ..
 
-.. TODO
-
-Remember, the via "Edit" screen, an email address can be
-made to be the recovery email address for an account. Only
-one address may be the recovery email.
+Remember, a recovery email address for an account can be set using the
+"Edit" screen.  Only one address may be the recovery email.
 
 Since the ``dittrich`` user has not confirmed his new email
 address yet, let's take a look at what happens when a user

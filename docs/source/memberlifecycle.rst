@@ -409,8 +409,8 @@ sent via the trust groups of which the user is a member.
     For information on using PGP (or GNU Privacy Guard) keys
     for secure email communication, see the Free Software
     Foundation's `Email Self-Defense`_ guide and Section
-    :ref:tridentusermanual:using_gpg` of the
-    :ref:tridentusermanual:tridentusermanual`.
+    :ref:`tridentusermanual:using_gpg` of the
+    :ref:`tridentusermanual:tridentusermanual`.
 
 ..
 
